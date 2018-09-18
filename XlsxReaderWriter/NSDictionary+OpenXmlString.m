@@ -18,7 +18,7 @@
     dispatch_once(&pred, ^{
         _orderedKeys = @{
                          @"workbook": @[
-                                 @"xmlns", @"xmlns:r", @"fileVersion", @"fileSharing", @"workbookPr", @"workbookProtection", @"mc:AlternateContent", @"bookViews", @"sheets", @"functionGroups", @"externalReferences", @"definedNames", @"calcPr", @"oleSize", @"customWorkbookViews", @"pivotCaches", @"smartTagPr", @"smartTagTypes", @"webPublishing", @"fileRecoveryPr", @"webPublishObjects", @"extLst"
+                                 @"xmlns", @"xmlns:r", @"fileVersion", @"fileSharing", @"workbookPr", @"workbookProtection", @"mc:AlternateContent", @"xr:revisionPtr", @"bookViews", @"sheets", @"functionGroups", @"externalReferences", @"definedNames", @"calcPr", @"oleSize", @"customWorkbookViews", @"pivotCaches", @"smartTagPr", @"smartTagTypes", @"webPublishing", @"fileRecoveryPr", @"webPublishObjects", @"extLst"
                                  ],
                          @"workbookView": @[
                                  @"xWindow", @"yWindow", @"windowWidth", @"windowHeight", @"tabRatio"
