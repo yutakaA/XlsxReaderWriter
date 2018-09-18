@@ -450,6 +450,7 @@
 		8289AAD820420FFC00E00603 /* XlsxReaderWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XlsxReaderWriter.h; sourceTree = "<group>"; };
 		8289AAD920420FFC00E00603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8289AB2F204211A200E00603 /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipArchive.framework; path = Carthage/Build/watchOS/ZipArchive.framework; sourceTree = SOURCE_ROOT; };
+		82BB0D4421519CB900CD4CC4 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.0.sdk/usr/lib/libz.1.tbd; sourceTree = DEVELOPER_DIR; };
 		9D696E6D8789816F5AD56DDB /* Pods-XlsxReaderWriterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XlsxReaderWriterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XlsxReaderWriterTests/Pods-XlsxReaderWriterTests.release.xcconfig"; sourceTree = "<group>"; };
 		B629C1D1A78EFCF049CF9F1E /* Pods-XlsxReaderWriterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XlsxReaderWriterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XlsxReaderWriterTests/Pods-XlsxReaderWriterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBCDA53CCC07B1F17D2B6C1E /* Pods-XlsxReaderWriter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XlsxReaderWriter.release.xcconfig"; path = "Pods/Target Support Files/Pods-XlsxReaderWriter/Pods-XlsxReaderWriter.release.xcconfig"; sourceTree = "<group>"; };
@@ -1060,6 +1061,7 @@
 			isa = PBXGroup;
 			children = (
 				8289AAC62041E8B500E00603 /* libz.1.tbd */,
+				82BB0D4421519CB900CD4CC4 /* libz.1.tbd */,
 				8289AAC42041E8A900E00603 /* libz.tbd */,
 				F7934BC8001D68396E5F835A /* Pods_XlsxReaderWriter.framework */,
 				3C10BE487F398AD13E5463EF /* Pods_XlsxReaderWriterTests.framework */,
