@@ -61,8 +61,9 @@ typedef enum : NSUInteger {
 //Cell content getters
 - (BOOL)boolValue;
 - (NSInteger)integerValue;
-- (float)floatValue;
 - (long long)longLongValue;
+- (float)floatValue;
+- (double)doubleValue;
 - (NSString *)stringValue;
 - (NSAttributedString *)attributedStringValue;
 - (NSDate *)dateValue;

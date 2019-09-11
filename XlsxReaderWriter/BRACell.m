@@ -290,6 +290,16 @@
     return [[self stringValue] integerValue];
 }
 
+- (long long)longLongValue {
+    if (_type == BRACellContentTypeBoolean) {
+        return [_value boolValue];
+    } else if (_type == BRACellContentTypeNumber || _type == BRACellContentTypeUnknown) {
+        return [_value longLongValue];
+    }
+    
+    return [[self stringValue] longLongValue];
+}
+
 - (float)floatValue {
     if (_type == BRACellContentTypeBoolean) {
         return [_value boolValue];
@@ -300,14 +310,14 @@
     return [[self stringValue] floatValue];
 }
 
-- (long long)longLongValue {
+- (double)doubleValue {
     if (_type == BRACellContentTypeBoolean) {
         return [_value boolValue];
     } else if (_type == BRACellContentTypeNumber || _type == BRACellContentTypeUnknown) {
-        return [_value longLongValue];
+        return [_value doubleValue];
     }
     
-    return [[self stringValue] longLongValue];
+    return [[self stringValue] doubleValue];
 }
 
 - (NSString *)stringValue {
