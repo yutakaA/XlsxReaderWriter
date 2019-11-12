@@ -7,7 +7,7 @@ DEPENDENCIES:
   - XlsxReaderWriter (from `https://raw.githubusercontent.com/charlymr/XlsxReaderWriter/2.4.0.Beta.4/XlsxReaderWriter.podspec`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - SSZipArchive
 
 EXTERNAL SOURCES:
@@ -18,6 +18,6 @@ SPEC CHECKSUMS:
   SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
   XlsxReaderWriter: ad2a231cac74e0fed16f26125976beec75c4b9d3
 
-PODFILE CHECKSUM: 4a3f61223c3aa7979839cf203d576f4a89d9b998
+PODFILE CHECKSUM: 033e0b3944e5818d0e7b72fd516ddca5f02ef518
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
