@@ -43,3 +43,5 @@ Pods
 
 *.xcuserstate
 Demo/Carthage
+Demo/Demo-cocoapods/Podfile.lock
+Demo/Demo-cocoapods/Pods
