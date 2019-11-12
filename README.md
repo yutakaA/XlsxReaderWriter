@@ -39,11 +39,11 @@ if you want to fix it and use the latest version
 
 ### Method 1 The quick one: 
 
-Just change your pod to this. Please not the branch (here 2.4.0.Beta.4)
+Just change your pod to this. Please not the branch (here 2.4.0)
 It will change in the future and be merge in master, so keep checkign for update.
 ```
     ## Change in your Podfile.
-        pod 'XlsxReaderWriter', podspec: 'https://raw.githubusercontent.com/charlymr/XlsxReaderWriter/2.4.0.Beta.4/XlsxReaderWriter.podspec'
+        pod 'XlsxReaderWriter', podspec: 'https://raw.githubusercontent.com/charlymr/XlsxReaderWriter/2.4.0/XlsxReaderWriter.podspec'
 
 ```
 
@@ -52,7 +52,7 @@ It will change in the future and be merge in master, so keep checkign for update
 
 ```
     ## Change in your Podfile.
-    pod 'XlsxReaderWriter', '~> 2.4.0-beta', :source => 'https://github.com/charlymr/XlsxReaderWriter-Podspecs.git'
+    pod 'XlsxReaderWriter', '~> 2.4.0', :source => 'https://github.com/charlymr/XlsxReaderWriter-Podspecs.git'
 ```
 
 
@@ -62,7 +62,7 @@ It will change in the future and be merge in master, so keep checkign for update
 source 'https://github.com/charlymr/XlsxReaderWriter-Podspecs.git' 
 
 ## Then you can get the latest version 2.4 +
-    pod 'XlsxReaderWriter', '~> 2.4.0-beta'
+    pod 'XlsxReaderWriter', '~> 2.4.0'
 ```
 
 
