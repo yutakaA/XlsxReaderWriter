@@ -21,12 +21,15 @@ cache:
     - $HOME/.cocoapods/
 
 before_install:
-- gem install cocoapods-acknowledgements
-- gem install cocoapods
-- pod update
+    - gem install cocoapods-acknowledgements
+    - gem install cocoapods
+    - git -C $HOME/.cocoapods/repos/master/ fetch
+    - git -C $HOME/.cocoapods/repos/master/ pull
+    - pod repo update
 
 script:
     - set -o pipefail
     - xcodebuild -version
     - xcodebuild -showsdks
-    - xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty -c
+    - pod install
+    - xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test -enableCodeCoverage YES | xcpretty -c
