@@ -23,6 +23,7 @@ cache:
 before_install:
     - gem install cocoapods-acknowledgements
     - gem install cocoapods
+    - pod setup
     - git -C $HOME/.cocoapods/repos/master/ fetch
     - git -C $HOME/.cocoapods/repos/master/ pull
     - pod repo update
