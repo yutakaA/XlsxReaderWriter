@@ -24,9 +24,7 @@ before_install:
     - gem install cocoapods-acknowledgements
     - gem install cocoapods
     - pod setup
-    - echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-    - pod add 'https://github.com/CocoaPods/Specs'
-    - pod repo update CocoaPods
+    - pod repo update
 
 script:
     - set -o pipefail
