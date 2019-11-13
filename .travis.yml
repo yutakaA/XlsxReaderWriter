@@ -10,7 +10,7 @@ env:
     - LANG=en_US.UTF-8
     - WORKSPACE=XlsxReaderWriter.xcworkspace
     - IOS_SCHEME="XlsxReaderWriter"
-    - IOS_SDK=iphonesimulator13.0
+    - IOS_SDK=iphonesimulator13.2
     - IOS_DEST="OS=13.2,name=iPhone 11"
 
     matrix:
