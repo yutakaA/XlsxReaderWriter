@@ -11,12 +11,6 @@ target 'XlsxReaderWriter' do
     use_frameworks!
 end
 
-target 'XlsxReaderWriter-Mac' do
-    platform :macos, '10.9'
-    thridparty
-    use_frameworks!
-end
-
 target 'XlsxReaderWriter-iOS' do
     platform :ios, '8.0'
     thridparty
