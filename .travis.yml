@@ -1,6 +1,6 @@
 language: objective-c
 os: osx
-osx_image: xcode9.3
+osx_image: xcode11.2
 notifications:
     email: false
 
@@ -10,8 +10,8 @@ env:
     - LANG=en_US.UTF-8
     - WORKSPACE=XlsxReaderWriter.xcworkspace
     - IOS_SCHEME="XlsxReaderWriter"
-    - IOS_SDK=iphonesimulator11.3
-    - IOS_DEST="OS=11.3,name=iPhone X"
+    - IOS_SDK=iphonesimulator13.0
+    - IOS_DEST="OS=13.2,name=iPhone 11"
 
     matrix:
     - DESTINATION="$IOS_DEST" SCHEME="$IOS_SCHEME" SDK="$IOS_SDK" RUN_TESTS="YES"

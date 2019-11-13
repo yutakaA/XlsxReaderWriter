@@ -1,8 +1,34 @@
 # XlsxReaderWriter
 
 [![Build Status](https://travis-ci.org/charlymr/XlsxReaderWriter.svg?branch=master)](https://travis-ci.org/charlymr/XlsxReaderWriter)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 XlsxReaderWriter is an Objective-C library for iPhone / iPad and Mac. It parses and writes Excel OpenXml files (XLSX).
+
+
+## Integrate using Carthage
+
+Install [Carthage](https://github.com/Carthage/Carthage#installing-carthage) if not already available 
+
+Change to the directory of your Xcode project, and Create and Edit your CartFile and add XlsxReaderWriter:
+
+``` bash
+$ cd /path/to/MyProject
+$ touch CartFile
+$ edit CartFile
+
+github "charlymr/XlsxReaderWriter" ~> 2.4
+```
+
+Save and run:
+``` bash
+$ carthage update
+```
+
+Drop the Carthage/Build/iOS .framework in your project.
+
+For more details on Cartage and how to use it, check the [Carthage Github](https://github.com/Carthage/Carthage) documentation
+
 
 
 ## COCOAPODS is OUTDATED - IMPORTANT READ THIS:
@@ -11,12 +37,32 @@ Cocoapods is outdated v 1.0.11, and apprently it is not possible to update it an
 https://cocoapods.org/pods/XlsxReaderWriter
 if you want to fix it and use the latest version
 
+### Method 1 The quick one: 
+
+Just change your pod to this. Please not the branch (here 2.4.0)
+It will change in the future and be merge in master, so keep checkign for update.
+```
+    ## Change in your Podfile.
+        pod 'XlsxReaderWriter', podspec: 'https://raw.githubusercontent.com/charlymr/XlsxReaderWriter/2.4.0/XlsxReaderWriter.podspec'
+
+```
+
+
+### Method 2 (Stay up to date automatically): 
+
+```
+    ## Change in your Podfile.
+    pod 'XlsxReaderWriter', '~> 2.4.0', :source => 'https://github.com/charlymr/XlsxReaderWriter-Podspecs.git'
+```
+
+
+(optional) If you want faster Build you can add the source
 ```
 ## Add this to your PodFile (at the top)
 source 'https://github.com/charlymr/XlsxReaderWriter-Podspecs.git' 
 
-## Then you can get the latest version 2.3 +
-    pod 'XlsxReaderWriter', '~> 2.3'
+## Then you can get the latest version 2.4 +
+    pod 'XlsxReaderWriter', '~> 2.4.0'
 ```
 
 
@@ -62,7 +108,11 @@ XlsxReaderWriter can't create a SpreadsheetML (XLSX) file from scratch. You have
 Third parties are included in this repository, not linked as git submodules.
 
 * SSZipArchive: Compression/decompression library
+
+## Third parties (Modified)
+
 * XMLDictionary: Converts XML to NSDictionary and NSDictionary to XML
+	The Library is [Deprecated](https://github.com/nicklockwood/XMLDictionary), for this reason the code has been integrated and refactored to avoid Name collision
 
 ## Linking (Objective-C)
 

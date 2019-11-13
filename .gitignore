@@ -36,9 +36,12 @@ build/
 *.dat
 *.dep
 
-*.xcodeproj/
+*.xcodeproj/xcuserdata
 !*.xcodeproj/project.pbxproj
-
+Pods
 
 
 *.xcuserstate
+Demo/Carthage
+Demo/Demo-cocoapods/Podfile.lock
+Demo/Demo-cocoapods/Pods

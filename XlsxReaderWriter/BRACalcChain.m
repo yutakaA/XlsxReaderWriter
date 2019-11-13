@@ -7,14 +7,12 @@
 //
 
 #import "BRACalcChain.h"
+#import "BRACalcChainCell.h"
 #import "BRARow.h"
 #import "BRACell.h"
 #import "BRAColumn.h"
-#if TARGET_OS_IPHONE
-@import XMLDictionary;
-#else
-#import "XMLDictionary.h"
-#endif
+#import "XlsxReaderXMLDictionary.h"
+#import "NSDictionary+OpenXmlString.h"
 
 @implementation BRACalcChain
 
@@ -35,9 +33,9 @@
     
     NSDictionary *openXmlAttributes = [NSDictionary dictionaryWithOpenXmlString:_xmlRepresentation];
     
-    NSArray *calcChainCellArray = [openXmlAttributes arrayValueForKeyPath:@"c"];
+    NSArray *calcChainCellArray = [openXmlAttributes xlsxReaderArrayValueForKeyPath:@"c"];
     
-    NSMutableArray *cells = @[].mutableCopy;
+    NSMutableArray *cells = [[NSMutableArray alloc] init];
     
     for (NSDictionary *calcChainCellDict in calcChainCellArray) {
         [cells addObject:[[BRACalcChainCell alloc] initWithOpenXmlAttributes:calcChainCellDict]];
@@ -137,7 +135,7 @@
     
     NSString *xmlHeader = @"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n";
     
-    NSMutableArray *cellsArray = @[].mutableCopy;
+    NSMutableArray *cellsArray = [[NSMutableArray alloc] init];
     
     for (BRACalcChainCell *cell in _cells) {
         [cellsArray addObject:[cell dictionaryRepresentation]];

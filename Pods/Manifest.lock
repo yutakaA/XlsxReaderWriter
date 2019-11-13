@@ -1,15 +1,16 @@
 PODS:
-  - SSZipArchive (2.1.1)
-  - XMLDictionary (1.4.1)
+  - SSZipArchive (2.1.4)
 
 DEPENDENCIES:
   - SSZipArchive (~> 2.1)
-  - XMLDictionary (~> 1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SSZipArchive
 
 SPEC CHECKSUMS:
-  SSZipArchive: 14401ade5f8e82aba1ff03e9f88e9de60937ae60
-  XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
+  SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
 
-PODFILE CHECKSUM: 9c39a4bcf359a9a863cc8ffea8033ad462ec9d4d
+PODFILE CHECKSUM: c01a5d919b1f6f53c8cf7fa6d22f9cddba9de208
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

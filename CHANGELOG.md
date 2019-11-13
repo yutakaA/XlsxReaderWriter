@@ -4,8 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## 2.3.5 - 2018-05-13
-- Merged [brvignesh PullRequest #8](https://github.com/charlymr/XlsxReaderWriter/pull/8)
+## 2.4.0
+- Version 2.4 is introducing an important dependency changes
+	- The Library XMLDictionary is [Deprecated](https://github.com/nicklockwood/XMLDictionary), for this reason the code
+          has been integrated and refactored to avoid Name collision
+	- WARNING: XMLDictionary is no longer a dependency of this project, if you depend on it, import it by another mean or 
+- Carthage integration
+- Refactored Import to be more module friendly (and moved header import to implmeention as much as possible)
+- Some refactoring on XMLDictionary to increase performance
+- 2.4.0 fixed an issue while saving files. Please do not use previous 2.4.0 beta 4 if you intend to edit files.
+   Thanks to @Florrr & @luchspeter
+- Updated for Xcode 11.2
 
 ## 2.3.4 - 2018-02-25
 - As of this version, the minimum system requirement are iOS 8.0, macOS 10.9 

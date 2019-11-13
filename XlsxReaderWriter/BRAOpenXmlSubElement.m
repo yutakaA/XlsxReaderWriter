@@ -8,11 +8,13 @@
 
 #import "BRAOpenXmlSubElement.h"
 #import "BRAStyles.h"
-#if TARGET_OS_IPHONE
-@import XMLDictionary;
-#else
-#import "XMLDictionary.h"
-#endif
+
+#import "NativeColor+HTML.h"
+#import "NativeFont+BoldItalic.h"
+#import "NSDictionary+DeepCopy.h"
+#import "NSDictionary+OpenXmlString.h"
+#import "NSDictionary+OpenXMLDictionaryParser.h"
+#import "XlsxReaderXMLDictionary.h"
 
 @implementation BRAOpenXmlSubElement
 

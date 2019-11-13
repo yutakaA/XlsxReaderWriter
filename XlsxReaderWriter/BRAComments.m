@@ -5,16 +5,13 @@
 //  Created by René BIGOT on 23/09/2015.
 //  Copyright © 2015 BRAE. All rights reserved.
 //
-
 #import "BRAComments.h"
+#import "BRAComment.h"
 #import "BRARow.h"
 #import "BRACell.h"
 #import "BRAColumn.h"
-#if TARGET_OS_IPHONE
-@import XMLDictionary;
-#else
-#import "XMLDictionary.h"
-#endif
+#import "XlsxReaderXMLDictionary.h"
+#import "NSDictionary+OpenXmlString.h"
 
 @implementation BRAComments
 
@@ -35,9 +32,9 @@
     
     NSDictionary *openXmlAttributes = [NSDictionary dictionaryWithOpenXmlString:_xmlRepresentation];
     
-    NSArray *commentsArray = [openXmlAttributes arrayValueForKeyPath:@"commentList.comment"];
+    NSArray *commentsArray = [openXmlAttributes xlsxReaderArrayValueForKeyPath:@"commentList.comment"];
     
-    NSMutableArray *comments = @[].mutableCopy;
+    NSMutableArray *comments = [[NSMutableArray alloc] init];
     
     for (NSDictionary *comment in commentsArray) {
         [comments addObject:[[BRAComment alloc] initWithOpenXmlAttributes:comment]];
@@ -138,7 +135,7 @@
     
     NSString *xmlHeader = @"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n";
     
-    NSMutableArray *commentsArray = @[].mutableCopy;
+    NSMutableArray *commentsArray = [[NSMutableArray alloc] init];
     
     for (BRAComment *comment in _comments) {
         [commentsArray addObject:[comment dictionaryRepresentation]];

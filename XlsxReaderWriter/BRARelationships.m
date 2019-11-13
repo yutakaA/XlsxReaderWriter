@@ -10,11 +10,8 @@
 #import "BRAContentTypesDefaultExtension.h"
 #import "BRAContentTypesOverride.h"
 #import "BRADrawing.h"
-#if TARGET_OS_IPHONE
-@import XMLDictionary;
-#else
-#import "XMLDictionary.h"
-#endif
+#import "XlsxReaderXMLDictionary.h"
+#import "NSDictionary+OpenXmlString.h"
 
 @implementation BRARelationships
 
@@ -23,9 +20,9 @@
     
     NSDictionary *attributes = [NSDictionary dictionaryWithOpenXmlString:_xmlRepresentation];
     
-    _relationshipsArray = @[].mutableCopy;
+    _relationshipsArray = [[NSMutableArray alloc] init];
     
-    NSArray *relationshipArray = [attributes arrayValueForKeyPath:@"Relationship"];
+    NSArray *relationshipArray = [attributes xlsxReaderArrayValueForKeyPath:@"Relationship"];
     
     for (NSDictionary *attributesDict in relationshipArray) {
         [self createRelationshipWithAttributes:attributesDict];
@@ -106,7 +103,7 @@
 - (void)addRelationship:(BRARelationship *)relationship {
     if ([relationship isKindOfClass:[BRAElementWithRelationships class]]) {
         
-        NSMutableArray *subRelationshipsTargets = @[].mutableCopy;
+        NSMutableArray *subRelationshipsTargets = [[NSMutableArray alloc] init];
         
         [[self allRelationships] enumerateObjectsUsingBlock:^(BRARelationship *obj, NSUInteger idx, BOOL *stop) {
             if (obj.target != nil) {
@@ -175,7 +172,7 @@
 }
 
 - (NSArray *)allRelationships {
-    NSMutableArray *allRelationships = @[].mutableCopy;
+    NSMutableArray *allRelationships = [[NSMutableArray alloc] init];
     
     for (BRARelationship *relationship in _relationshipsArray) {
         [allRelationships addObject:relationship];
@@ -201,7 +198,7 @@
     newRelationships.parentDirectory = self.parentDirectory;
     newRelationships.xmlRepresentation = _xmlRepresentation;
     
-    newRelationships.relationshipsArray = @[].mutableCopy;
+    newRelationships.relationshipsArray = [[NSMutableArray alloc] init];
     
     for (BRARelationship *relationship in _relationshipsArray) {
         [newRelationships addRelationship:[relationship copy]];
@@ -211,7 +208,7 @@
 }
 
 - (NSString *)xmlRepresentation {
-    NSMutableArray *relationshipsArray = @[].mutableCopy;
+    NSMutableArray *relationshipsArray = [[NSMutableArray alloc] init];
 
     for (BRARelationship *relationship in _relationshipsArray) {
         [relationshipsArray addObject:@{
