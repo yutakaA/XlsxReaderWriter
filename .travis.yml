@@ -20,13 +20,13 @@ cache:
   directories:
     - $HOME/.cocoapods/
 
-before_script: 'echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config'
-
 before_install:
     - gem install cocoapods-acknowledgements
     - gem install cocoapods
     - pod setup
-    - pod repo update
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+    - pod add 'https://github.com/CocoaPods/Specs'
+    - pod repo update CocoaPods
 
 script:
     - set -o pipefail
