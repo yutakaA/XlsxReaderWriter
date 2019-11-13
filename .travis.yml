@@ -1,5 +1,4 @@
 language: objective-c
-cache: cocoapods
 os: osx
 osx_image: xcode11.2
 notifications:
@@ -17,9 +16,18 @@ env:
     matrix:
     - DESTINATION="$IOS_DEST" SCHEME="$IOS_SCHEME" SDK="$IOS_SDK" RUN_TESTS="YES"
 
+cache:
+  directories:
+    - $HOME/.cocoapods/
+
+before_install:
+- gem install cocoapods-acknowledgements
+- gem install cocoapods
+- pod outdated | awk '{ if ( $1 ~ /^-/ ) { print $0 } }' | awk '{ if ( $3 != $5 ) { pod update $2 } else { print "No updated needed it for" $2 } }
+- pod update
+
 script:
     - set -o pipefail
     - xcodebuild -version
     - xcodebuild -showsdks
-    - pod install
     - xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty -c
