@@ -7,12 +7,24 @@ end
 
 target 'XlsxReaderWriter' do
     platform :ios, '8.0'
-	use_frameworks!
     thridparty
+    use_frameworks!
+end
+
+target 'XlsxReaderWriter-Mac' do
+    platform :macos, '10.9'
+    thridparty
+    use_frameworks!
+end
+
+target 'XlsxReaderWriter-iOS' do
+    platform :ios, '8.0'
+    thridparty
+    use_frameworks!
 end
 
 target 'XlsxReaderWriterTests' do
     platform :ios, '8.0'
-	use_frameworks!
     thridparty
+	use_frameworks!
 end
