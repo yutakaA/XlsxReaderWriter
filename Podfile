@@ -1,5 +1,4 @@
-source 'https://github.com/CocoaPods/Specs'
-
+source 'git@github.com:CocoaPods/Specs.git'
 
 def thridparty
     pod 'SSZipArchive', '~> 2.1'
