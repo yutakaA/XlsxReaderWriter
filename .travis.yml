@@ -23,7 +23,6 @@ cache:
 before_install:
 - gem install cocoapods-acknowledgements
 - gem install cocoapods
-- pod outdated | awk '{ if ( $1 ~ /^-/ ) { print $0 } }' | awk '{ if ( $3 != $5 ) { pod update $2 } else { print "No updated needed it for" $2 } }
 - pod update
 
 script:
