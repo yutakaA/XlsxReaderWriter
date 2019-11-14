@@ -16,9 +16,19 @@ env:
     matrix:
     - DESTINATION="$IOS_DEST" SCHEME="$IOS_SCHEME" SDK="$IOS_SDK" RUN_TESTS="YES"
 
+cache:
+  directories:
+    - $HOME/.cocoapods/
+
+before_install:
+    - gem install cocoapods-acknowledgements
+    - gem install cocoapods
+    - pod setup
+    - pod repo update
+
 script:
     - set -o pipefail
     - xcodebuild -version
     - xcodebuild -showsdks
     - pod install
-    - xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty -c
+    - xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test -enableCodeCoverage YES | xcpretty -c
