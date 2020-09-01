@@ -6,19 +6,19 @@ def thridparty
 end
 
 target 'XlsxReaderWriter' do
-    platform :ios, '8.0'
+    platform :ios, '9.0'
     thridparty
     use_frameworks!
 end
 
 target 'XlsxReaderWriter-iOS' do
-    platform :ios, '8.0'
+    platform :ios, '9.0'
     thridparty
     use_frameworks!
 end
 
 target 'XlsxReaderWriterTests' do
-    platform :ios, '8.0'
+    platform :ios, '9.0'
     thridparty
 	use_frameworks!
 end
