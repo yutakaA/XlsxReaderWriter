@@ -10,8 +10,8 @@ env:
     - LANG=en_US.UTF-8
     - WORKSPACE=XlsxReaderWriter.xcworkspace
     - IOS_SCHEME="XlsxReaderWriter"
-    - IOS_SDK=iphonesimulator14.1
-    - IOS_DEST="OS=14.1,name=iPhone 12"
+    - IOS_SDK=iphonesimulator14.0
+    - IOS_DEST="OS=14.0,name=iPhone 12"
 
     matrix:
     - DESTINATION="$IOS_DEST" SCHEME="$IOS_SCHEME" SDK="$IOS_SDK" RUN_TESTS="YES"
