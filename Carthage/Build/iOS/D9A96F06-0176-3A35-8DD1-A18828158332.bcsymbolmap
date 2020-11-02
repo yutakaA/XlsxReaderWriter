@@ -1,0 +1,1733 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.2)
+/Applications/Xcode_12/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk
+iPhoneOS14.0.sdk
+/Users/dm/Library/Developer/Xcode/DerivedData/XlsxReaderWriter-esseagseiomluwhbcqykgupqthuo/Build/Intermediates.noindex/ArchiveIntermediates/XlsxReaderWriter-iOS/IntermediateBuildFilesPath/XlsxReaderWriter.build/Release-iphoneos/XlsxReaderWriter-iOS.build/DerivedSources/XlsxReaderWriter_vers.c
+/Users/dm/Repositories/XlsxReaderWriter
++[XlsxReaderXMLDictionaryParser sharedInstance]
+___47+[XlsxReaderXMLDictionaryParser sharedInstance]_block_invoke
+-[XlsxReaderXMLDictionaryParser init]
+-[XlsxReaderXMLDictionaryParser copyWithZone:]
+-[XlsxReaderXMLDictionaryParser dictionaryWithParser:]
+-[XlsxReaderXMLDictionaryParser dictionaryWithData:]
+-[XlsxReaderXMLDictionaryParser dictionaryWithString:]
+-[XlsxReaderXMLDictionaryParser dictionaryWithFile:]
++[XlsxReaderXMLDictionaryParser XMLStringForNode:withNodeName:]
+___63+[XlsxReaderXMLDictionaryParser XMLStringForNode:withNodeName:]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+-[XlsxReaderXMLDictionaryParser endText]
+-[XlsxReaderXMLDictionaryParser addText:]
+-[XlsxReaderXMLDictionaryParser parser:didStartElement:namespaceURI:qualifiedName:attributes:]
+-[XlsxReaderXMLDictionaryParser nameForNode:inDictionary:]
+-[XlsxReaderXMLDictionaryParser parser:didEndElement:namespaceURI:qualifiedName:]
+-[XlsxReaderXMLDictionaryParser parser:foundCharacters:]
+-[XlsxReaderXMLDictionaryParser parser:foundCDATA:]
+-[XlsxReaderXMLDictionaryParser parser:foundComment:]
+-[XlsxReaderXMLDictionaryParser collapseTextNodes]
+-[XlsxReaderXMLDictionaryParser setCollapseTextNodes:]
+-[XlsxReaderXMLDictionaryParser stripEmptyNodes]
+-[XlsxReaderXMLDictionaryParser setStripEmptyNodes:]
+-[XlsxReaderXMLDictionaryParser trimWhiteSpace]
+-[XlsxReaderXMLDictionaryParser setTrimWhiteSpace:]
+-[XlsxReaderXMLDictionaryParser alwaysUseArrays]
+-[XlsxReaderXMLDictionaryParser setAlwaysUseArrays:]
+-[XlsxReaderXMLDictionaryParser preserveComments]
+-[XlsxReaderXMLDictionaryParser setPreserveComments:]
+-[XlsxReaderXMLDictionaryParser wrapRootNode]
+-[XlsxReaderXMLDictionaryParser setWrapRootNode:]
+-[XlsxReaderXMLDictionaryParser attributesMode]
+-[XlsxReaderXMLDictionaryParser setAttributesMode:]
+-[XlsxReaderXMLDictionaryParser nodeNameMode]
+-[XlsxReaderXMLDictionaryParser setNodeNameMode:]
+-[XlsxReaderXMLDictionaryParser root]
+-[XlsxReaderXMLDictionaryParser setRoot:]
+-[XlsxReaderXMLDictionaryParser stack]
+-[XlsxReaderXMLDictionaryParser setStack:]
+-[XlsxReaderXMLDictionaryParser text]
+-[XlsxReaderXMLDictionaryParser setText:]
+-[XlsxReaderXMLDictionaryParser .cxx_destruct]
++[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderDictionaryWithXMLParser:]
++[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderDictionaryWithXMLData:]
++[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderDictionaryWithXMLString:]
++[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderDictionaryWithXMLFile:]
+-[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderAttributes]
+-[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderChildNodes]
+-[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderComments]
+-[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderNodeName]
+-[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderInnerText]
+-[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderInnerXML]
+-[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderXMLString]
+-[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderArrayValueForKeyPath:]
+-[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderStringValueForKeyPath:]
+-[NSDictionary(XlsxReaderXMLDictionary) xlsxReaderDictionaryValueForKeyPath:]
+-[NSString(XlsxReaderXMLDictionary) xlsxReaderXMLEncodedString]
+_sharedInstance.once
+_sharedInstance.sharedInstance
+___block_descriptor_32_e5_v8?0l
+___block_literal_global
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_CLASSLIST_REFERENCES_$_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_CLASSLIST_REFERENCES_$_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_CLASSLIST_REFERENCES_$_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_CLASSLIST_REFERENCES_$_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_CLASSLIST_REFERENCES_$_.64
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_CLASSLIST_REFERENCES_$_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+___block_descriptor_40_e8_32s_e35_v32?0"NSString"8"NSString"16^B24l
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_CLASSLIST_REFERENCES_$_.85
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_CLASSLIST_REFERENCES_$_.94
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_CLASSLIST_REFERENCES_$_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_SELECTOR_REFERENCES_.135
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_SELECTOR_REFERENCES_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.151
+__OBJC_$_CLASS_METHODS_XlsxReaderXMLDictionaryParser
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_NSXMLParserDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXMLParserDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSXMLParserDelegate
+__OBJC_PROTOCOL_$_NSXMLParserDelegate
+__OBJC_LABEL_PROTOCOL_$_NSXMLParserDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+__OBJC_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+__OBJC_CLASS_PROTOCOLS_$_XlsxReaderXMLDictionaryParser
+__OBJC_METACLASS_RO_$_XlsxReaderXMLDictionaryParser
+__OBJC_$_INSTANCE_METHODS_XlsxReaderXMLDictionaryParser
+_OBJC_IVAR_$_XlsxReaderXMLDictionaryParser._collapseTextNodes
+_OBJC_IVAR_$_XlsxReaderXMLDictionaryParser._stripEmptyNodes
+_OBJC_IVAR_$_XlsxReaderXMLDictionaryParser._trimWhiteSpace
+_OBJC_IVAR_$_XlsxReaderXMLDictionaryParser._alwaysUseArrays
+_OBJC_IVAR_$_XlsxReaderXMLDictionaryParser._preserveComments
+_OBJC_IVAR_$_XlsxReaderXMLDictionaryParser._wrapRootNode
+_OBJC_IVAR_$_XlsxReaderXMLDictionaryParser._attributesMode
+_OBJC_IVAR_$_XlsxReaderXMLDictionaryParser._nodeNameMode
+_OBJC_IVAR_$_XlsxReaderXMLDictionaryParser._root
+_OBJC_IVAR_$_XlsxReaderXMLDictionaryParser._stack
+_OBJC_IVAR_$_XlsxReaderXMLDictionaryParser._text
+__OBJC_$_INSTANCE_VARIABLES_XlsxReaderXMLDictionaryParser
+__OBJC_$_PROP_LIST_XlsxReaderXMLDictionaryParser
+__OBJC_CLASS_RO_$_XlsxReaderXMLDictionaryParser
+_OBJC_SELECTOR_REFERENCES_.291
+_OBJC_SELECTOR_REFERENCES_.293
+_OBJC_SELECTOR_REFERENCES_.294
+_OBJC_SELECTOR_REFERENCES_.295
+_OBJC_SELECTOR_REFERENCES_.297
+_OBJC_SELECTOR_REFERENCES_.299
+_OBJC_SELECTOR_REFERENCES_.301
+_OBJC_SELECTOR_REFERENCES_.303
+_OBJC_SELECTOR_REFERENCES_.305
+_OBJC_SELECTOR_REFERENCES_.307
+_OBJC_SELECTOR_REFERENCES_.313
+_OBJC_SELECTOR_REFERENCES_.315
+_OBJC_SELECTOR_REFERENCES_.317
+_OBJC_SELECTOR_REFERENCES_.319
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSDictionary_$_XlsxReaderXMLDictionary
+__OBJC_$_CATEGORY_CLASS_METHODS_NSDictionary_$_XlsxReaderXMLDictionary
+__OBJC_$_PROP_LIST_NSDictionary_$_XlsxReaderXMLDictionary
+__OBJC_$_CATEGORY_NSDictionary_$_XlsxReaderXMLDictionary
+_OBJC_SELECTOR_REFERENCES_.344
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_XlsxReaderXMLDictionary
+__OBJC_$_PROP_LIST_NSString_$_XlsxReaderXMLDictionary
+__OBJC_$_CATEGORY_NSString_$_XlsxReaderXMLDictionary
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/XlsxReaderXMLDictionary.m
+XlsxReaderWriter/XlsxReaderXMLDictionary.m
+XlsxReaderWriter/XlsxReaderXMLDictionary.h
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
+__63+[XlsxReaderXMLDictionaryParser XMLStringForNode:withNodeName:]_block_invoke
+__47+[XlsxReaderXMLDictionaryParser sharedInstance]_block_invoke
+/Applications/Xcode_12/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/dispatch/once.h
+-[NSDictionary(DeepCopy) mutableDeepCopy]
+-[NSArray(DeepCopy) mutableDeepCopy]
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSDictionary_$_DeepCopy
+__OBJC_$_CATEGORY_NSDictionary_$_DeepCopy
+_OBJC_CLASSLIST_REFERENCES_$_.19
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_DeepCopy
+__OBJC_$_CATEGORY_NSArray_$_DeepCopy
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/NSDictionary+DeepCopy.m
+XlsxReaderWriter/NSDictionary+DeepCopy.m
++[NSDictionary(OpenXMLDictionaryParser) dictionaryWithOpenXmlParser:]
++[NSDictionary(OpenXMLDictionaryParser) dictionaryWithOpenXmlData:]
++[NSDictionary(OpenXMLDictionaryParser) dictionaryWithOpenXmlString:]
++[NSDictionary(OpenXMLDictionaryParser) dictionaryWithOpenXmlFile:]
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+__OBJC_$_CATEGORY_CLASS_METHODS_NSDictionary_$_OpenXMLDictionaryParser
+__OBJC_$_CATEGORY_NSDictionary_$_OpenXMLDictionaryParser
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/NSDictionary+OpenXMLDictionaryParser.m
+XlsxReaderWriter/NSDictionary+OpenXMLDictionaryParser.m
++[NSDictionary(OpenXmlString) openXmlOrderedKeys]
+___49+[NSDictionary(OpenXmlString) openXmlOrderedKeys]_block_invoke
+-[NSDictionary(OpenXmlString) openXmlStringInNodeNamed:]
+-[NSDictionary(OpenXmlString) openXmlInnerXMLInNodeNamed:]
+-[NSDictionary(OpenXmlString) openXmlInnerText]
++[NSDictionary(OpenXmlString) openXmlStringForNode:withNodeName:]
+_openXmlOrderedKeys._orderedKeys
+_openXmlOrderedKeys.pred
+_OBJC_CLASSLIST_REFERENCES_$_.644
+_OBJC_SELECTOR_REFERENCES_.646
+_OBJC_SELECTOR_REFERENCES_.648
+_OBJC_SELECTOR_REFERENCES_.652
+_OBJC_CLASSLIST_REFERENCES_$_.653
+_OBJC_SELECTOR_REFERENCES_.655
+_OBJC_SELECTOR_REFERENCES_.657
+_OBJC_SELECTOR_REFERENCES_.659
+_OBJC_CLASSLIST_REFERENCES_$_.660
+_OBJC_SELECTOR_REFERENCES_.664
+_OBJC_SELECTOR_REFERENCES_.666
+_OBJC_SELECTOR_REFERENCES_.668
+_OBJC_SELECTOR_REFERENCES_.670
+_OBJC_SELECTOR_REFERENCES_.672
+_OBJC_SELECTOR_REFERENCES_.674
+_OBJC_SELECTOR_REFERENCES_.676
+_OBJC_SELECTOR_REFERENCES_.678
+_OBJC_SELECTOR_REFERENCES_.680
+_OBJC_SELECTOR_REFERENCES_.682
+_OBJC_SELECTOR_REFERENCES_.684
+_OBJC_SELECTOR_REFERENCES_.688
+_OBJC_SELECTOR_REFERENCES_.690
+_OBJC_SELECTOR_REFERENCES_.692
+_OBJC_SELECTOR_REFERENCES_.696
+_OBJC_SELECTOR_REFERENCES_.698
+_OBJC_SELECTOR_REFERENCES_.700
+_OBJC_CLASSLIST_REFERENCES_$_.701
+_OBJC_SELECTOR_REFERENCES_.703
+_OBJC_SELECTOR_REFERENCES_.707
+_OBJC_SELECTOR_REFERENCES_.709
+_OBJC_SELECTOR_REFERENCES_.711
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSDictionary_$_OpenXmlString
+__OBJC_$_CATEGORY_CLASS_METHODS_NSDictionary_$_OpenXmlString
+__OBJC_$_CATEGORY_NSDictionary_$_OpenXmlString
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/NSDictionary+OpenXmlString.m
+XlsxReaderWriter/NSDictionary+OpenXmlString.m
+__49+[NSDictionary(OpenXmlString) openXmlOrderedKeys]_block_invoke
++[UIFont(BoldItalic) nativeFontWithName:size:bold:italic:]
+___58+[UIFont(BoldItalic) nativeFontWithName:size:bold:italic:]_block_invoke
+-[UIFont(BoldItalic) windowsFontProperties]
+___43-[UIFont(BoldItalic) windowsFontProperties]_block_invoke
+_nativeFontWithName:size:bold:italic:.pred
+_nativeFontWithName:size:bold:italic:._openXml2IOsFonts
+_OBJC_CLASSLIST_REFERENCES_$_.140
+_OBJC_SELECTOR_REFERENCES_.142
+_windowsFontProperties.pred
+_windowsFontProperties._ios2OpenXmlFonts
+___block_literal_global.143
+_OBJC_CLASSLIST_REFERENCES_$_.146
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.152
+__OBJC_$_CATEGORY_INSTANCE_METHODS_UIFont_$_BoldItalic
+__OBJC_$_CATEGORY_CLASS_METHODS_UIFont_$_BoldItalic
+__OBJC_$_CATEGORY_UIFont_$_BoldItalic
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/NativeFont+BoldItalic.m
+__43-[UIFont(BoldItalic) windowsFontProperties]_block_invoke
+XlsxReaderWriter/NativeFont+BoldItalic.m
+__58+[UIFont(BoldItalic) nativeFontWithName:size:bold:italic:]_block_invoke
++[UIColor(HTML) colorWithHexString:]
++[UIColor(HTML) colorComponentFrom:start:length:]
+-[UIColor(HTML) hexStringValue]
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_CLASSLIST_REFERENCES_$_.20
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_CLASSLIST_REFERENCES_$_.25
+__OBJC_$_CATEGORY_INSTANCE_METHODS_UIColor_$_HTML
+__OBJC_$_CATEGORY_CLASS_METHODS_UIColor_$_HTML
+__OBJC_$_CATEGORY_UIColor_$_HTML
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/NativeColor+HTML.m
+XlsxReaderWriter/NativeColor+HTML.m
+NSMakeRange
+/Applications/Xcode_12/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
++[UIColor(OpenXml) defaultIndexedColors]
+___40+[UIColor(OpenXml) defaultIndexedColors]_block_invoke
+_defaultIndexedColors.pred
+_defaultIndexedColors._defaultIndexedColors
+_OBJC_CLASSLIST_REFERENCES_$_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_CLASSLIST_REFERENCES_$_.97
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_SELECTOR_REFERENCES_.101
+__OBJC_$_CATEGORY_CLASS_METHODS_UIColor_$_OpenXml
+__OBJC_$_CATEGORY_UIColor_$_OpenXml
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/NativeColor+OpenXML.m
+__40+[UIColor(OpenXml) defaultIndexedColors]_block_invoke
+XlsxReaderWriter/NativeColor+OpenXML.m
++[BRAOfficeDocumentPackage open:]
++[BRAOfficeDocumentPackage create:]
+-[BRAOfficeDocumentPackage initWithContentsOfFile:]
+-[BRAOfficeDocumentPackage save]
+-[BRAOfficeDocumentPackage saveAs:]
+-[BRAOfficeDocumentPackage workbook]
+-[BRAOfficeDocumentPackage deleteCacheDirectory]
+-[BRAOfficeDocumentPackage contentTypesFilePath]
+-[BRAOfficeDocumentPackage relationshipsTarget]
+-[BRAOfficeDocumentPackage contentTypes]
+-[BRAOfficeDocumentPackage setContentTypes:]
+-[BRAOfficeDocumentPackage cacheDirectory]
+-[BRAOfficeDocumentPackage setCacheDirectory:]
+-[BRAOfficeDocumentPackage setWorkbook:]
+-[BRAOfficeDocumentPackage .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_CLASSLIST_REFERENCES_$_.57
+_OBJC_CLASSLIST_REFERENCES_$_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_CLASSLIST_REFERENCES_$_.102
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.118
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_CLASSLIST_REFERENCES_$_.127
+_OBJC_IVAR_$_BRAOfficeDocumentPackage._contentTypes
+_OBJC_IVAR_$_BRAOfficeDocumentPackage._cacheDirectory
+_OBJC_IVAR_$_BRAOfficeDocumentPackage._workbook
+__OBJC_$_CLASS_METHODS_BRAOfficeDocumentPackage
+__OBJC_METACLASS_RO_$_BRAOfficeDocumentPackage
+__OBJC_$_INSTANCE_METHODS_BRAOfficeDocumentPackage
+__OBJC_$_INSTANCE_VARIABLES_BRAOfficeDocumentPackage
+__OBJC_$_PROP_LIST_BRAOfficeDocumentPackage
+__OBJC_CLASS_RO_$_BRAOfficeDocumentPackage
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAOfficeDocumentPackage.m
+XlsxReaderWriter/BRAOfficeDocumentPackage.m
+XlsxReaderWriter/BRAOfficeDocumentPackage.h
+-[BRACalcChainCell loadAttributes]
+-[BRACalcChainCell dictionaryRepresentation]
+-[BRACalcChainCell description]
+-[BRACalcChainCell reference]
+-[BRACalcChainCell setReference:]
+-[BRACalcChainCell .cxx_destruct]
+_OBJC_IVAR_$_BRACalcChainCell._reference
+__OBJC_METACLASS_RO_$_BRACalcChainCell
+__OBJC_$_INSTANCE_METHODS_BRACalcChainCell
+__OBJC_$_INSTANCE_VARIABLES_BRACalcChainCell
+__OBJC_$_PROP_LIST_BRACalcChainCell
+__OBJC_CLASS_RO_$_BRACalcChainCell
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRACalcChainCell.m
+XlsxReaderWriter/BRACalcChainCell.m
+XlsxReaderWriter/BRACalcChainCell.h
++[BRACalcChain fullRelationshipType]
+-[BRACalcChain contentType]
+-[BRACalcChain targetFormat]
+-[BRACalcChain loadXmlContents]
+-[BRACalcChain didAddRowsAtIndexes:]
+___36-[BRACalcChain didAddRowsAtIndexes:]_block_invoke
+-[BRACalcChain didRemoveRowsAtIndexes:]
+___39-[BRACalcChain didRemoveRowsAtIndexes:]_block_invoke
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
+-[BRACalcChain didAddColumnsAtIndexes:]
+___39-[BRACalcChain didAddColumnsAtIndexes:]_block_invoke
+-[BRACalcChain didRemoveColumnsAtIndexes:]
+___42-[BRACalcChain didRemoveColumnsAtIndexes:]_block_invoke
+-[BRACalcChain xmlRepresentation]
+-[BRACalcChain cells]
+-[BRACalcChain setCells:]
+-[BRACalcChain .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_CLASSLIST_REFERENCES_$_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_IVAR_$_BRACalcChain._cells
+_OBJC_CLASSLIST_REFERENCES_$_.69
+_OBJC_CLASSLIST_REFERENCES_$_.74
+_OBJC_CLASSLIST_REFERENCES_$_.75
+___block_descriptor_40_e8_32s_e12_v24?0Q8^B16l
+___block_descriptor_48_e8_32s40s_e12_v24?0Q8^B16l
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.105
+__OBJC_$_CLASS_METHODS_BRACalcChain
+__OBJC_$_PROTOCOL_REFS_BRARelatedToColumnAndRowProtocol
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_BRARelatedToColumnAndRowProtocol
+__OBJC_$_PROTOCOL_METHOD_TYPES_BRARelatedToColumnAndRowProtocol
+__OBJC_PROTOCOL_$_BRARelatedToColumnAndRowProtocol
+__OBJC_LABEL_PROTOCOL_$_BRARelatedToColumnAndRowProtocol
+__OBJC_CLASS_PROTOCOLS_$_BRACalcChain
+__OBJC_METACLASS_RO_$_BRACalcChain
+__OBJC_$_INSTANCE_METHODS_BRACalcChain
+__OBJC_$_INSTANCE_VARIABLES_BRACalcChain
+__OBJC_$_PROP_LIST_BRACalcChain
+__OBJC_CLASS_RO_$_BRACalcChain
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRACalcChain.m
+XlsxReaderWriter/BRACalcChain.m
+XlsxReaderWriter/BRACalcChain.h
+__42-[BRACalcChain didRemoveColumnsAtIndexes:]_block_invoke
+__39-[BRACalcChain didAddColumnsAtIndexes:]_block_invoke
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40s
+__39-[BRACalcChain didRemoveRowsAtIndexes:]_block_invoke
+__36-[BRACalcChain didAddRowsAtIndexes:]_block_invoke
+-[BRAComment loadAttributes]
+-[BRAComment dictionaryRepresentation]
+-[BRAComment description]
+-[BRAComment reference]
+-[BRAComment setReference:]
+-[BRAComment .cxx_destruct]
+_OBJC_IVAR_$_BRAComment._reference
+__OBJC_METACLASS_RO_$_BRAComment
+__OBJC_$_INSTANCE_METHODS_BRAComment
+__OBJC_$_INSTANCE_VARIABLES_BRAComment
+__OBJC_$_PROP_LIST_BRAComment
+__OBJC_CLASS_RO_$_BRAComment
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAComment.m
+XlsxReaderWriter/BRAComment.m
+XlsxReaderWriter/BRAComment.h
++[BRAComments fullRelationshipType]
+-[BRAComments contentType]
+-[BRAComments targetFormat]
+-[BRAComments loadXmlContents]
+-[BRAComments didAddRowsAtIndexes:]
+___35-[BRAComments didAddRowsAtIndexes:]_block_invoke
+-[BRAComments didRemoveRowsAtIndexes:]
+___38-[BRAComments didRemoveRowsAtIndexes:]_block_invoke
+-[BRAComments didAddColumnsAtIndexes:]
+___38-[BRAComments didAddColumnsAtIndexes:]_block_invoke
+-[BRAComments didRemoveColumnsAtIndexes:]
+___41-[BRAComments didRemoveColumnsAtIndexes:]_block_invoke
+-[BRAComments xmlRepresentation]
+-[BRAComments comments]
+-[BRAComments setComments:]
+-[BRAComments .cxx_destruct]
+_OBJC_IVAR_$_BRAComments._comments
+__OBJC_$_CLASS_METHODS_BRAComments
+__OBJC_CLASS_PROTOCOLS_$_BRAComments
+__OBJC_METACLASS_RO_$_BRAComments
+__OBJC_$_INSTANCE_METHODS_BRAComments
+__OBJC_$_INSTANCE_VARIABLES_BRAComments
+__OBJC_$_PROP_LIST_BRAComments
+__OBJC_CLASS_RO_$_BRAComments
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAComments.m
+XlsxReaderWriter/BRAComments.m
+XlsxReaderWriter/BRAComments.h
+__41-[BRAComments didRemoveColumnsAtIndexes:]_block_invoke
+__38-[BRAComments didAddColumnsAtIndexes:]_block_invoke
+__38-[BRAComments didRemoveRowsAtIndexes:]_block_invoke
+__35-[BRAComments didAddRowsAtIndexes:]_block_invoke
+-[BRAContentTypesOverride initWithContentType:forPart:]
+-[BRAContentTypesOverride loadAttributes]
+-[BRAContentTypesOverride description]
+-[BRAContentTypesOverride partName]
+-[BRAContentTypesOverride setPartName:]
+-[BRAContentTypesOverride contentType]
+-[BRAContentTypesOverride setContentType:]
+-[BRAContentTypesOverride .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_CLASSLIST_REFERENCES_$_.29
+_OBJC_IVAR_$_BRAContentTypesOverride._contentType
+_OBJC_IVAR_$_BRAContentTypesOverride._partName
+_OBJC_SELECTOR_REFERENCES_.35
+__OBJC_METACLASS_RO_$_BRAContentTypesOverride
+__OBJC_$_INSTANCE_METHODS_BRAContentTypesOverride
+__OBJC_$_INSTANCE_VARIABLES_BRAContentTypesOverride
+__OBJC_$_PROP_LIST_BRAContentTypesOverride
+__OBJC_CLASS_RO_$_BRAContentTypesOverride
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAContentTypesOverride.m
+XlsxReaderWriter/BRAContentTypesOverride.m
+XlsxReaderWriter/BRAContentTypesOverride.h
++[BRAContentTypesDefaultExtension knownTypes]
+-[BRAContentTypesDefaultExtension initWithExtension:]
+-[BRAContentTypesDefaultExtension loadAttributes]
+-[BRAContentTypesDefaultExtension extension]
+-[BRAContentTypesDefaultExtension setExtension:]
+-[BRAContentTypesDefaultExtension contentType]
+-[BRAContentTypesDefaultExtension setContentType:]
+-[BRAContentTypesDefaultExtension .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_IVAR_$_BRAContentTypesDefaultExtension._extension
+_OBJC_IVAR_$_BRAContentTypesDefaultExtension._contentType
+__OBJC_$_CLASS_METHODS_BRAContentTypesDefaultExtension
+__OBJC_METACLASS_RO_$_BRAContentTypesDefaultExtension
+__OBJC_$_INSTANCE_METHODS_BRAContentTypesDefaultExtension
+__OBJC_$_INSTANCE_VARIABLES_BRAContentTypesDefaultExtension
+__OBJC_$_PROP_LIST_BRAContentTypesDefaultExtension
+__OBJC_CLASS_RO_$_BRAContentTypesDefaultExtension
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAContentTypesDefaultExtension.m
+XlsxReaderWriter/BRAContentTypesDefaultExtension.m
+XlsxReaderWriter/BRAContentTypesDefaultExtension.h
+-[BRAContentTypes loadXmlContents]
+-[BRAContentTypes xmlRepresentation]
+-[BRAContentTypes hasContentTypeForPart:]
+___41-[BRAContentTypes hasContentTypeForPart:]_block_invoke
+-[BRAContentTypes hasOverrideForPart:]
+___38-[BRAContentTypes hasOverrideForPart:]_block_invoke
+-[BRAContentTypes overrideContentType:forPart:]
+-[BRAContentTypes addContentTypeForExtension:]
+-[BRAContentTypes defaultExtensions]
+-[BRAContentTypes setDefaultExtensions:]
+-[BRAContentTypes overrides]
+-[BRAContentTypes setOverrides:]
+-[BRAContentTypes .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_CLASSLIST_REFERENCES_$_.10
+_OBJC_IVAR_$_BRAContentTypes._defaultExtensions
+_OBJC_IVAR_$_BRAContentTypes._overrides
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+___block_descriptor_40_e8_32s_e48_B32?0"BRAContentTypesDefaultExtension"8Q16^B24l
+___block_descriptor_40_e8_32s_e40_B32?0"BRAContentTypesOverride"8Q16^B24l
+__OBJC_METACLASS_RO_$_BRAContentTypes
+__OBJC_$_INSTANCE_METHODS_BRAContentTypes
+__OBJC_$_INSTANCE_VARIABLES_BRAContentTypes
+__OBJC_$_PROP_LIST_BRAContentTypes
+__OBJC_CLASS_RO_$_BRAContentTypes
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAContentTypes.m
+XlsxReaderWriter/BRAContentTypes.m
+XlsxReaderWriter/BRAContentTypes.h
+__38-[BRAContentTypes hasOverrideForPart:]_block_invoke
+__41-[BRAContentTypes hasContentTypeForPart:]_block_invoke
+-[BRAAnchor openXmlAttributesForNewAnchoredDrawing]
+-[BRAOneCellAnchor openXmlAttributesForNewAnchoredDrawing]
+-[BRAOneCellAnchor size]
+-[BRAOneCellAnchor setSize:]
+-[BRAOneCellAnchor topLeftCellOffset]
+-[BRAOneCellAnchor setTopLeftCellOffset:]
+-[BRAOneCellAnchor topLeftCellReference]
+-[BRAOneCellAnchor setTopLeftCellReference:]
+-[BRAOneCellAnchor .cxx_destruct]
+-[BRATwoCellAnchor openXmlAttributesForNewAnchoredDrawing]
+-[BRATwoCellAnchor bottomRightCellOffset]
+-[BRATwoCellAnchor setBottomRightCellOffset:]
+-[BRATwoCellAnchor bottomRightCellReference]
+-[BRATwoCellAnchor setBottomRightCellReference:]
+-[BRATwoCellAnchor .cxx_destruct]
+-[BRAAbsoluteAnchor openXmlAttributesForNewAnchoredDrawing]
+-[BRAAbsoluteAnchor frame]
+-[BRAAbsoluteAnchor setFrame:]
+-[BRAWorksheetDrawing initWithImage:andAnchor:]
+-[BRAWorksheetDrawing loadAttributes]
+-[BRAWorksheetDrawing dictionaryRepresentation]
+-[BRAWorksheetDrawing shouldKeepAspectRatio]
+-[BRAWorksheetDrawing setKeepAspectRatio:]
+-[BRAWorksheetDrawing insets]
+-[BRAWorksheetDrawing setInsets:]
+-[BRAWorksheetDrawing anchor]
+-[BRAWorksheetDrawing setAnchor:]
+-[BRAWorksheetDrawing name]
+-[BRAWorksheetDrawing setName:]
+-[BRAWorksheetDrawing identifier]
+-[BRAWorksheetDrawing setIdentifier:]
+-[BRAWorksheetDrawing drawingIdentifier]
+-[BRAWorksheetDrawing setDrawingIdentifier:]
+-[BRAWorksheetDrawing image]
+-[BRAWorksheetDrawing setImage:]
+-[BRAWorksheetDrawing .cxx_destruct]
+__OBJC_METACLASS_RO_$_BRAAnchor
+__OBJC_$_INSTANCE_METHODS_BRAAnchor
+__OBJC_CLASS_RO_$_BRAAnchor
+_OBJC_IVAR_$_BRAOneCellAnchor._size
+_OBJC_IVAR_$_BRAOneCellAnchor._topLeftCellOffset
+_OBJC_IVAR_$_BRAOneCellAnchor._topLeftCellReference
+__OBJC_METACLASS_RO_$_BRAOneCellAnchor
+__OBJC_$_INSTANCE_METHODS_BRAOneCellAnchor
+__OBJC_$_INSTANCE_VARIABLES_BRAOneCellAnchor
+__OBJC_$_PROP_LIST_BRAOneCellAnchor
+__OBJC_CLASS_RO_$_BRAOneCellAnchor
+_OBJC_IVAR_$_BRATwoCellAnchor._bottomRightCellOffset
+_OBJC_IVAR_$_BRATwoCellAnchor._bottomRightCellReference
+__OBJC_METACLASS_RO_$_BRATwoCellAnchor
+__OBJC_$_INSTANCE_METHODS_BRATwoCellAnchor
+__OBJC_$_INSTANCE_VARIABLES_BRATwoCellAnchor
+__OBJC_$_PROP_LIST_BRATwoCellAnchor
+__OBJC_CLASS_RO_$_BRATwoCellAnchor
+_OBJC_IVAR_$_BRAAbsoluteAnchor._frame
+__OBJC_METACLASS_RO_$_BRAAbsoluteAnchor
+__OBJC_$_INSTANCE_METHODS_BRAAbsoluteAnchor
+__OBJC_$_INSTANCE_VARIABLES_BRAAbsoluteAnchor
+__OBJC_$_PROP_LIST_BRAAbsoluteAnchor
+__OBJC_CLASS_RO_$_BRAAbsoluteAnchor
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.163
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_CLASSLIST_REFERENCES_$_.176
+_OBJC_SELECTOR_REFERENCES_.178
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_SELECTOR_REFERENCES_.185
+_OBJC_CLASSLIST_REFERENCES_$_.190
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.203
+_OBJC_CLASSLIST_REFERENCES_$_.204
+_OBJC_SELECTOR_REFERENCES_.209
+_OBJC_CLASSLIST_REFERENCES_$_.214
+_OBJC_SELECTOR_REFERENCES_.215
+_OBJC_SELECTOR_REFERENCES_.219
+_OBJC_SELECTOR_REFERENCES_.221
+_OBJC_SELECTOR_REFERENCES_.225
+_OBJC_SELECTOR_REFERENCES_.233
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_SELECTOR_REFERENCES_.241
+_OBJC_SELECTOR_REFERENCES_.245
+_OBJC_SELECTOR_REFERENCES_.247
+_OBJC_SELECTOR_REFERENCES_.249
+_OBJC_CLASSLIST_REFERENCES_$_.250
+_OBJC_SELECTOR_REFERENCES_.254
+_OBJC_SELECTOR_REFERENCES_.256
+_OBJC_SELECTOR_REFERENCES_.258
+_OBJC_SELECTOR_REFERENCES_.262
+_OBJC_SELECTOR_REFERENCES_.264
+_OBJC_SELECTOR_REFERENCES_.270
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_SELECTOR_REFERENCES_.274
+_OBJC_SELECTOR_REFERENCES_.276
+_OBJC_SELECTOR_REFERENCES_.278
+_OBJC_SELECTOR_REFERENCES_.279
+_OBJC_SELECTOR_REFERENCES_.280
+_OBJC_CLASSLIST_REFERENCES_$_.281
+_OBJC_SELECTOR_REFERENCES_.282
+_OBJC_SELECTOR_REFERENCES_.284
+_OBJC_CLASSLIST_REFERENCES_$_.285
+_OBJC_SELECTOR_REFERENCES_.287
+_OBJC_SELECTOR_REFERENCES_.288
+_OBJC_SELECTOR_REFERENCES_.289
+_OBJC_SELECTOR_REFERENCES_.290
+_OBJC_SELECTOR_REFERENCES_.292
+_OBJC_IVAR_$_BRAWorksheetDrawing._keepAspectRatio
+_OBJC_IVAR_$_BRAWorksheetDrawing._insets
+_OBJC_IVAR_$_BRAWorksheetDrawing._anchor
+_OBJC_IVAR_$_BRAWorksheetDrawing._name
+_OBJC_IVAR_$_BRAWorksheetDrawing._identifier
+_OBJC_IVAR_$_BRAWorksheetDrawing._drawingIdentifier
+_OBJC_IVAR_$_BRAWorksheetDrawing._image
+__OBJC_METACLASS_RO_$_BRAWorksheetDrawing
+__OBJC_$_INSTANCE_METHODS_BRAWorksheetDrawing
+__OBJC_$_INSTANCE_VARIABLES_BRAWorksheetDrawing
+__OBJC_$_PROP_LIST_BRAWorksheetDrawing
+__OBJC_CLASS_RO_$_BRAWorksheetDrawing
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAWorksheetDrawing.m
+XlsxReaderWriter/BRAWorksheetDrawing.m
+XlsxReaderWriter/BRAWorksheetDrawing.h
+UIEdgeInsetsEqualToEdgeInsets
+/Applications/Xcode_12/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
++[BRADrawing fullRelationshipType]
+-[BRADrawing contentType]
+-[BRADrawing targetFormat]
+-[BRADrawing loadXmlContents]
+-[BRADrawing addWorksheetDrawingsForAnchorType:]
+-[BRADrawing addDrawing:]
+-[BRADrawing addDrawingForImage:withAnchor:]
+-[BRADrawing newDrawingIdentifier]
+-[BRADrawing didAddRowsAtIndexes:]
+___34-[BRADrawing didAddRowsAtIndexes:]_block_invoke
+-[BRADrawing didRemoveRowsAtIndexes:]
+___37-[BRADrawing didRemoveRowsAtIndexes:]_block_invoke
+-[BRADrawing didAddColumnsAtIndexes:]
+___37-[BRADrawing didAddColumnsAtIndexes:]_block_invoke
+-[BRADrawing didRemoveColumnsAtIndexes:]
+___40-[BRADrawing didRemoveColumnsAtIndexes:]_block_invoke
+-[BRADrawing xmlRepresentation]
+-[BRADrawing copy]
+-[BRADrawing worksheetDrawings]
+-[BRADrawing setWorksheetDrawings:]
+-[BRADrawing .cxx_destruct]
+_OBJC_IVAR_$_BRADrawing._worksheetDrawings
+_OBJC_CLASSLIST_REFERENCES_$_.90
+_OBJC_CLASSLIST_REFERENCES_$_.101
+_OBJC_CLASSLIST_REFERENCES_$_.104
+_OBJC_CLASSLIST_REFERENCES_$_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_CLASSLIST_REFERENCES_$_.119
+_OBJC_CLASSLIST_REFERENCES_$_.130
+_OBJC_CLASSLIST_REFERENCES_$_.131
+_OBJC_CLASSLIST_REFERENCES_$_.136
+_OBJC_CLASSLIST_REFERENCES_$_.137
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_SELECTOR_REFERENCES_.159
+__OBJC_$_CLASS_METHODS_BRADrawing
+__OBJC_CLASS_PROTOCOLS_$_BRADrawing
+__OBJC_METACLASS_RO_$_BRADrawing
+__OBJC_$_INSTANCE_METHODS_BRADrawing
+__OBJC_$_INSTANCE_VARIABLES_BRADrawing
+__OBJC_$_PROP_LIST_BRADrawing
+__OBJC_CLASS_RO_$_BRADrawing
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRADrawing.m
+XlsxReaderWriter/BRADrawing.m
+XlsxReaderWriter/BRADrawing.h
+__40-[BRADrawing didRemoveColumnsAtIndexes:]_block_invoke
+__37-[BRADrawing didAddColumnsAtIndexes:]_block_invoke
+__37-[BRADrawing didRemoveRowsAtIndexes:]_block_invoke
+__34-[BRADrawing didAddRowsAtIndexes:]_block_invoke
+-[BRAImage targetFormat]
++[BRAImage fullRelationshipType]
+-[BRAImage loadXmlContents]
+-[BRAImage xmlRepresentation]
+-[BRAImage isJpeg]
+-[BRAImage setJpeg:]
+-[BRAImage uiImage]
+-[BRAImage setUiImage:]
+-[BRAImage .cxx_destruct]
+_OBJC_IVAR_$_BRAImage._uiImage
+_OBJC_IVAR_$_BRAImage._jpeg
+__OBJC_$_CLASS_METHODS_BRAImage
+__OBJC_METACLASS_RO_$_BRAImage
+__OBJC_$_INSTANCE_METHODS_BRAImage
+__OBJC_$_INSTANCE_VARIABLES_BRAImage
+__OBJC_$_PROP_LIST_BRAImage
+__OBJC_CLASS_RO_$_BRAImage
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAImage.m
+XlsxReaderWriter/BRAImage.m
+XlsxReaderWriter/BRAImage.h
+-[BRASharedString initWithAttributedString:inStyles:]
+-[BRASharedString loadAttributes]
+-[BRASharedString refreshContent]
+-[BRASharedString stringFromTextDictionary:]
+-[BRASharedString attributedString]
+-[BRASharedString setStyles:]
+-[BRASharedString dictionaryRepresentation]
+___43-[BRASharedString dictionaryRepresentation]_block_invoke
+___copy_helper_block_e8_32s40s48r
+___destroy_helper_block_e8_32s40s48r
+-[BRASharedString .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_CLASSLIST_REFERENCES_$_.42
+_OBJC_CLASSLIST_REFERENCES_$_.47
+_OBJC_CLASSLIST_REFERENCES_$_.52
+_OBJC_CLASSLIST_REFERENCES_$_.55
+___block_descriptor_56_e8_32s40s48r_e27_v40?08{_NSRange=QQ}16^B32l
+__OBJC_METACLASS_RO_$_BRASharedString
+__OBJC_$_INSTANCE_METHODS_BRASharedString
+__OBJC_$_INSTANCE_VARIABLES_BRASharedString
+__OBJC_CLASS_RO_$_BRASharedString
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRASharedString.m
+XlsxReaderWriter/BRASharedString.m
+__destroy_helper_block_e8_32s40s48r
+__copy_helper_block_e8_32s40s48r
+__43-[BRASharedString dictionaryRepresentation]_block_invoke
++[BRASharedStrings fullRelationshipType]
+-[BRASharedStrings contentType]
+-[BRASharedStrings targetFormat]
+-[BRASharedStrings loadXmlContents]
+-[BRASharedStrings addSharedString:]
+-[BRASharedStrings setStyles:]
+-[BRASharedStrings xmlRepresentation]
+-[BRASharedStrings styles]
+-[BRASharedStrings sharedStrings]
+-[BRASharedStrings setSharedStrings:]
+-[BRASharedStrings .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.21
+_OBJC_CLASSLIST_REFERENCES_$_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_IVAR_$_BRASharedStrings._sharedStrings
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_IVAR_$_BRASharedStrings._styles
+__OBJC_$_CLASS_METHODS_BRASharedStrings
+__OBJC_METACLASS_RO_$_BRASharedStrings
+__OBJC_$_INSTANCE_METHODS_BRASharedStrings
+__OBJC_$_INSTANCE_VARIABLES_BRASharedStrings
+__OBJC_$_PROP_LIST_BRASharedStrings
+__OBJC_CLASS_RO_$_BRASharedStrings
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRASharedStrings.m
+XlsxReaderWriter/BRASharedStrings.m
+XlsxReaderWriter/BRASharedStrings.h
+-[BRACellFormat loadAttributes]
+-[BRACellFormat dictionaryRepresentation]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___41-[BRACellFormat dictionaryRepresentation]_block_invoke
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
+-[BRACellFormat isProtected]
+-[BRACellFormat textAlignment]
+-[BRACellFormat cellFill]
+-[BRACellFormat textAttributes]
+-[BRACellFormat numberFormat]
+-[BRACellFormat setCellFill:]
+-[BRACellFormat setNumberFormat:]
+___33-[BRACellFormat setNumberFormat:]_block_invoke
+-[BRACellFormat description]
+-[BRACellFormat setProtected:]
+-[BRACellFormat setTextAlignment:]
+-[BRACellFormat setTextAttributes:]
+-[BRACellFormat cellStyleFormat]
+-[BRACellFormat setCellStyleFormat:]
+-[BRACellFormat .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_IVAR_$_BRACellFormat._textAlignment
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_CLASSLIST_REFERENCES_$_.91
+_OBJC_IVAR_$_BRACellFormat._textAttributes
+_OBJC_IVAR_$_BRACellFormat._protected
+_OBJC_IVAR_$_BRACellFormat._cellStyleFormat
+_OBJC_CLASSLIST_REFERENCES_$_.122
+_OBJC_SELECTOR_REFERENCES_.128
+___block_descriptor_48_e8_32s40r_e42_v32?0"NSString"8"BRANumberFormat"16^B24l
+___block_descriptor_40_e8_32s_e32_B32?08"BRANumberFormat"16^B24l
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_SELECTOR_REFERENCES_.168
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_SELECTOR_REFERENCES_.174
+__OBJC_METACLASS_RO_$_BRACellFormat
+__OBJC_$_INSTANCE_METHODS_BRACellFormat
+__OBJC_$_INSTANCE_VARIABLES_BRACellFormat
+__OBJC_$_PROP_LIST_BRACellFormat
+__OBJC_CLASS_RO_$_BRACellFormat
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRACellFormat.m
+XlsxReaderWriter/BRACellFormat.m
+XlsxReaderWriter/BRACellFormat.h
+__33-[BRACellFormat setNumberFormat:]_block_invoke
+__destroy_helper_block_e8_32s40r
+__copy_helper_block_e8_32s40r
+__41-[BRACellFormat dictionaryRepresentation]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+-[BRANumberFormatData initWithCode:]
+-[BRANumberFormatData description]
+-[BRANumberFormatData hasThousands]
+-[BRANumberFormatData setHasThousands:]
+-[BRANumberFormatData isScientific]
+-[BRANumberFormatData setIsScientific:]
+-[BRANumberFormatData exponentLength]
+-[BRANumberFormatData setExponentLength:]
+-[BRANumberFormatData minWidth]
+-[BRANumberFormatData setMinWidth:]
+-[BRANumberFormatData decimals]
+-[BRANumberFormatData setDecimals:]
+-[BRANumberFormatData precision]
+-[BRANumberFormatData setPrecision:]
+-[BRANumberFormatData type]
+-[BRANumberFormatData setType:]
+-[BRANumberFormatData scale]
+-[BRANumberFormatData setScale:]
+-[BRANumberFormatData exponentSymbol]
+-[BRANumberFormatData setExponentSymbol:]
+-[BRANumberFormatData code]
+-[BRANumberFormatData setCode:]
+-[BRANumberFormatData currency]
+-[BRANumberFormatData setCurrency:]
+-[BRANumberFormatData pattern]
+-[BRANumberFormatData setPattern:]
+-[BRANumberFormatData color]
+-[BRANumberFormatData setColor:]
+-[BRANumberFormatData .cxx_destruct]
+-[BRANumberFormat initWithFormatCode:andId:inStyles:]
+-[BRANumberFormat loadAttributes]
+-[BRANumberFormat colorStringFromFormatCode:]
+-[BRANumberFormat colorFromColorString:]
+-[BRANumberFormat isPercentageCode:]
+-[BRANumberFormat isDateTimeCode:]
+-[BRANumberFormat isFractionCode:]
+-[BRANumberFormat createPatternCacheFromCode:]
+-[BRANumberFormat nonDateTimeFormatStringInCode:]
+-[BRANumberFormat currencyFromCode:]
+-[BRANumberFormat replaceOpenXmlFormatCodesWithNSFormatterCodesInString:]
+-[BRANumberFormat greatestCommonDivisonWithErrorFor:and:]
+-[BRANumberFormat greatestCommonDivisonFor:and:]
+-[BRANumberFormat convertToFraction:withDenominatorLength:]
+-[BRANumberFormat formatNumber:]
+-[BRANumberFormat formatOutputCode:]
+-[BRANumberFormat dictionaryRepresentation]
+-[BRANumberFormat formatCode]
+-[BRANumberFormat setFormatCode:]
+-[BRANumberFormat formatId]
+-[BRANumberFormat setFormatId:]
+-[BRANumberFormat .cxx_destruct]
+__OBJC_METACLASS_RO_$_BRANumberFormatData
+__OBJC_$_INSTANCE_METHODS_BRANumberFormatData
+_OBJC_IVAR_$_BRANumberFormatData._hasThousands
+_OBJC_IVAR_$_BRANumberFormatData._isScientific
+_OBJC_IVAR_$_BRANumberFormatData._exponentLength
+_OBJC_IVAR_$_BRANumberFormatData._minWidth
+_OBJC_IVAR_$_BRANumberFormatData._decimals
+_OBJC_IVAR_$_BRANumberFormatData._precision
+_OBJC_IVAR_$_BRANumberFormatData._type
+_OBJC_IVAR_$_BRANumberFormatData._scale
+_OBJC_IVAR_$_BRANumberFormatData._exponentSymbol
+_OBJC_IVAR_$_BRANumberFormatData._code
+_OBJC_IVAR_$_BRANumberFormatData._currency
+_OBJC_IVAR_$_BRANumberFormatData._pattern
+_OBJC_IVAR_$_BRANumberFormatData._color
+__OBJC_$_INSTANCE_VARIABLES_BRANumberFormatData
+__OBJC_$_PROP_LIST_BRANumberFormatData
+__OBJC_CLASS_RO_$_BRANumberFormatData
+_OBJC_IVAR_$_BRANumberFormat._formatId
+_OBJC_IVAR_$_BRANumberFormat._formatCode
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_CLASSLIST_REFERENCES_$_.143
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.154
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_CLASSLIST_REFERENCES_$_.165
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_SELECTOR_REFERENCES_.205
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.227
+_OBJC_CLASSLIST_REFERENCES_$_.228
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_SELECTOR_REFERENCES_.236
+_OBJC_SELECTOR_REFERENCES_.238
+_OBJC_SELECTOR_REFERENCES_.240
+_OBJC_CLASSLIST_REFERENCES_$_.243
+_OBJC_SELECTOR_REFERENCES_.253
+_OBJC_SELECTOR_REFERENCES_.257
+_OBJC_SELECTOR_REFERENCES_.261
+_OBJC_SELECTOR_REFERENCES_.265
+_OBJC_SELECTOR_REFERENCES_.269
+_OBJC_SELECTOR_REFERENCES_.273
+_OBJC_SELECTOR_REFERENCES_.275
+_OBJC_SELECTOR_REFERENCES_.281
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_SELECTOR_REFERENCES_.300
+_OBJC_SELECTOR_REFERENCES_.302
+_OBJC_SELECTOR_REFERENCES_.306
+_OBJC_SELECTOR_REFERENCES_.308
+_OBJC_SELECTOR_REFERENCES_.309
+_OBJC_CLASSLIST_REFERENCES_$_.316
+_OBJC_CLASSLIST_REFERENCES_$_.317
+_OBJC_SELECTOR_REFERENCES_.321
+_OBJC_SELECTOR_REFERENCES_.323
+_OBJC_SELECTOR_REFERENCES_.379
+_OBJC_SELECTOR_REFERENCES_.381
+_OBJC_SELECTOR_REFERENCES_.383
+_OBJC_CLASSLIST_REFERENCES_$_.384
+_OBJC_SELECTOR_REFERENCES_.387
+_OBJC_SELECTOR_REFERENCES_.389
+_OBJC_SELECTOR_REFERENCES_.390
+_OBJC_SELECTOR_REFERENCES_.394
+_OBJC_CLASSLIST_REFERENCES_$_.397
+_OBJC_SELECTOR_REFERENCES_.401
+_OBJC_SELECTOR_REFERENCES_.405
+_OBJC_SELECTOR_REFERENCES_.407
+_OBJC_SELECTOR_REFERENCES_.409
+_OBJC_SELECTOR_REFERENCES_.413
+_OBJC_SELECTOR_REFERENCES_.415
+_OBJC_SELECTOR_REFERENCES_.424
+_OBJC_SELECTOR_REFERENCES_.426
+_OBJC_SELECTOR_REFERENCES_.428
+_OBJC_SELECTOR_REFERENCES_.430
+_OBJC_SELECTOR_REFERENCES_.431
+_OBJC_SELECTOR_REFERENCES_.432
+_OBJC_SELECTOR_REFERENCES_.434
+_OBJC_SELECTOR_REFERENCES_.435
+_OBJC_SELECTOR_REFERENCES_.437
+_OBJC_SELECTOR_REFERENCES_.439
+_OBJC_SELECTOR_REFERENCES_.441
+_OBJC_SELECTOR_REFERENCES_.443
+_OBJC_CLASSLIST_REFERENCES_$_.444
+_OBJC_SELECTOR_REFERENCES_.446
+_OBJC_SELECTOR_REFERENCES_.448
+_OBJC_SELECTOR_REFERENCES_.453
+_OBJC_CLASSLIST_REFERENCES_$_.464
+_OBJC_SELECTOR_REFERENCES_.466
+_OBJC_SELECTOR_REFERENCES_.478
+_OBJC_SELECTOR_REFERENCES_.480
+__OBJC_METACLASS_RO_$_BRANumberFormat
+__OBJC_$_INSTANCE_METHODS_BRANumberFormat
+__OBJC_$_INSTANCE_VARIABLES_BRANumberFormat
+__OBJC_$_PROP_LIST_BRANumberFormat
+__OBJC_CLASS_RO_$_BRANumberFormat
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRANumberFormat.m
+XlsxReaderWriter/BRANumberFormat.m
+XlsxReaderWriter/BRANumberFormat.h
+-[BRACellFill initWithForegroundColor:backgroundColor:andPatternType:inStyles:]
+-[BRACellFill loadAttributes]
+-[BRACellFill dictionaryRepresentation]
+-[BRACellFill patternedColor]
+-[BRACellFill _solidPatternedColor]
+-[BRACellFill _darkGrayPatternedColor]
+-[BRACellFill _mediumGrayPatternedColor]
+-[BRACellFill _lightGrayPatternedColor]
+-[BRACellFill _gray125PatternedColor]
+-[BRACellFill _gray0625PatternedColor]
+-[BRACellFill nativeColorWithSize:drawingOperations:]
+-[BRACellFill _darkHorizontalPatternedColor]
+___44-[BRACellFill _darkHorizontalPatternedColor]_block_invoke
+-[BRACellFill _darkVerticalPatternedColor]
+___42-[BRACellFill _darkVerticalPatternedColor]_block_invoke
+-[BRACellFill _darkDownPatternedColor]
+___38-[BRACellFill _darkDownPatternedColor]_block_invoke
+-[BRACellFill _darkUpPatternedColor]
+___36-[BRACellFill _darkUpPatternedColor]_block_invoke
+-[BRACellFill _darkGridPatternedColor]
+___38-[BRACellFill _darkGridPatternedColor]_block_invoke
+-[BRACellFill _darkTrellisPatternedColor]
+___41-[BRACellFill _darkTrellisPatternedColor]_block_invoke
+-[BRACellFill _lightHorizontalPatternedColor]
+___45-[BRACellFill _lightHorizontalPatternedColor]_block_invoke
+-[BRACellFill _lightVerticalPatternedColor]
+___43-[BRACellFill _lightVerticalPatternedColor]_block_invoke
+-[BRACellFill _lightDownPatternedColor]
+___39-[BRACellFill _lightDownPatternedColor]_block_invoke
+-[BRACellFill _lightUpPatternedColor]
+___37-[BRACellFill _lightUpPatternedColor]_block_invoke
+-[BRACellFill _lightGridPatternedColor]
+___39-[BRACellFill _lightGridPatternedColor]_block_invoke
+-[BRACellFill _lightTrellisPatternedColor]
+___42-[BRACellFill _lightTrellisPatternedColor]_block_invoke
+-[BRACellFill __grayPatternedColorWithGrayLevel:]
+___49-[BRACellFill __grayPatternedColorWithGrayLevel:]_block_invoke
+-[BRACellFill backgroundColor]
+-[BRACellFill setBackgroundColor:]
+-[BRACellFill foregroundColor]
+-[BRACellFill setForegroundColor:]
+-[BRACellFill patternType]
+-[BRACellFill setPatternType:]
+-[BRACellFill .cxx_destruct]
+_OBJC_IVAR_$_BRACellFill._patternType
+_OBJC_IVAR_$_BRACellFill._backgroundColor
+_OBJC_IVAR_$_BRACellFill._foregroundColor
+_OBJC_SELECTOR_REFERENCES_.67
+___block_descriptor_40_e8_32s_e20_v16?0^{CGContext=}8l
+___block_descriptor_48_e8_32s_e20_v16?0^{CGContext=}8l
+__OBJC_METACLASS_RO_$_BRACellFill
+__OBJC_$_INSTANCE_METHODS_BRACellFill
+__OBJC_$_INSTANCE_VARIABLES_BRACellFill
+__OBJC_$_PROP_LIST_BRACellFill
+__OBJC_CLASS_RO_$_BRACellFill
+_OBJC_CLASSLIST_REFERENCES_$_.145
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRACellFill.m
+XlsxReaderWriter/BRACellFill.m
+XlsxReaderWriter/BRACellFill.h
+__49-[BRACellFill __grayPatternedColorWithGrayLevel:]_block_invoke
+__42-[BRACellFill _lightTrellisPatternedColor]_block_invoke
+__39-[BRACellFill _lightGridPatternedColor]_block_invoke
+__37-[BRACellFill _lightUpPatternedColor]_block_invoke
+__39-[BRACellFill _lightDownPatternedColor]_block_invoke
+__43-[BRACellFill _lightVerticalPatternedColor]_block_invoke
+__45-[BRACellFill _lightHorizontalPatternedColor]_block_invoke
+__41-[BRACellFill _darkTrellisPatternedColor]_block_invoke
+__38-[BRACellFill _darkGridPatternedColor]_block_invoke
+__36-[BRACellFill _darkUpPatternedColor]_block_invoke
+__38-[BRACellFill _darkDownPatternedColor]_block_invoke
+__42-[BRACellFill _darkVerticalPatternedColor]_block_invoke
+__44-[BRACellFill _darkHorizontalPatternedColor]_block_invoke
+BRANativeGraphicsGetImageFromContext
+XlsxReaderWriter/BRAPlatformSpecificDefines.h
++[BRAStyles fullRelationshipType]
+-[BRAStyles contentType]
+-[BRAStyles targetFormat]
+-[BRAStyles loadXmlContents]
+-[BRAStyles loadThemableContent]
+-[BRAStyles loadCellFills]
+-[BRAStyles loadCellStyleFormats]
+-[BRAStyles loadCellFormats]
+-[BRAStyles loadTextsAttributes]
+-[BRAStyles attributedStringAttributesFromOpenXmlAttributes:]
+-[BRAStyles colorWithOpenXmlAttributes:]
+-[BRAStyles openXmlAttributesWithColor:]
+-[BRAStyles rgbColorValueForColor:]
+-[BRAStyles addStyleByCopyingStyleWithId:]
+-[BRAStyles addNumberFormat:]
+-[BRAStyles defaultNumberFormats]
+___33-[BRAStyles defaultNumberFormats]_block_invoke
+-[BRAStyles xmlRepresentation]
+-[BRAStyles indexedColors]
+-[BRAStyles setIndexedColors:]
+-[BRAStyles textsAttributes]
+-[BRAStyles setTextsAttributes:]
+-[BRAStyles cellFormats]
+-[BRAStyles setCellFormats:]
+-[BRAStyles cellStyleFormats]
+-[BRAStyles setCellStyleFormats:]
+-[BRAStyles cellFills]
+-[BRAStyles setCellFills:]
+-[BRAStyles numberFormats]
+-[BRAStyles setNumberFormats:]
+-[BRAStyles theme]
+-[BRAStyles setTheme:]
+-[BRAStyles .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.65
+_OBJC_IVAR_$_BRAStyles._indexedColors
+_OBJC_CLASSLIST_REFERENCES_$_.84
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_IVAR_$_BRAStyles._numberFormats
+_OBJC_CLASSLIST_REFERENCES_$_.108
+_OBJC_IVAR_$_BRAStyles._cellFills
+_OBJC_CLASSLIST_REFERENCES_$_.113
+_OBJC_IVAR_$_BRAStyles._cellStyleFormats
+_OBJC_IVAR_$_BRAStyles._cellFormats
+_OBJC_IVAR_$_BRAStyles._textsAttributes
+_OBJC_CLASSLIST_REFERENCES_$_.120
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_CLASSLIST_REFERENCES_$_.133
+_OBJC_CLASSLIST_REFERENCES_$_.144
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_IVAR_$_BRAStyles._theme
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_CLASSLIST_REFERENCES_$_.173
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_SELECTOR_REFERENCES_.187
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_SELECTOR_REFERENCES_.191
+_defaultNumberFormats.pred
+_defaultNumberFormats.defaultNumberFormats
+___block_descriptor_40_e8_32s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.336
+_OBJC_SELECTOR_REFERENCES_.340
+_OBJC_SELECTOR_REFERENCES_.348
+_OBJC_SELECTOR_REFERENCES_.350
+_OBJC_SELECTOR_REFERENCES_.360
+_OBJC_SELECTOR_REFERENCES_.364
+_OBJC_SELECTOR_REFERENCES_.368
+_OBJC_SELECTOR_REFERENCES_.370
+_OBJC_SELECTOR_REFERENCES_.382
+_OBJC_SELECTOR_REFERENCES_.384
+__OBJC_$_CLASS_METHODS_BRAStyles
+__OBJC_METACLASS_RO_$_BRAStyles
+__OBJC_$_INSTANCE_METHODS_BRAStyles
+__OBJC_$_INSTANCE_VARIABLES_BRAStyles
+__OBJC_$_PROP_LIST_BRAStyles
+__OBJC_CLASS_RO_$_BRAStyles
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAStyles.m
+XlsxReaderWriter/BRAStyles.m
+XlsxReaderWriter/BRAStyles.h
+__33-[BRAStyles defaultNumberFormats]_block_invoke
++[BRATheme fullRelationshipType]
+-[BRATheme contentType]
+-[BRATheme targetFormat]
+-[BRATheme loadXmlContents]
+-[BRATheme colorNamed:inColorScheme:]
+-[BRATheme xmlRepresentation]
+-[BRATheme colors]
+-[BRATheme .cxx_destruct]
+_OBJC_IVAR_$_BRATheme._colors
+_OBJC_CLASSLIST_REFERENCES_$_.62
+__OBJC_$_CLASS_METHODS_BRATheme
+__OBJC_METACLASS_RO_$_BRATheme
+__OBJC_$_INSTANCE_METHODS_BRATheme
+__OBJC_$_INSTANCE_VARIABLES_BRATheme
+__OBJC_$_PROP_LIST_BRATheme
+__OBJC_CLASS_RO_$_BRATheme
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRATheme.m
+XlsxReaderWriter/BRATheme.m
+XlsxReaderWriter/BRATheme.h
+-[BRAVmlDrawing targetFormat]
++[BRAVmlDrawing fullRelationshipType]
+-[BRAVmlDrawing loadXmlContents]
+-[BRAVmlDrawing xmlRepresentation]
+__OBJC_$_CLASS_METHODS_BRAVmlDrawing
+__OBJC_METACLASS_RO_$_BRAVmlDrawing
+__OBJC_$_INSTANCE_METHODS_BRAVmlDrawing
+__OBJC_CLASS_RO_$_BRAVmlDrawing
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAVmlDrawing.m
+XlsxReaderWriter/BRAVmlDrawing.m
+-[BRASheet loadAttributes]
+-[BRASheet dictionaryRepresentation]
+-[BRASheet identifier]
+-[BRASheet setIdentifier:]
+-[BRASheet name]
+-[BRASheet setName:]
+-[BRASheet sheetId]
+-[BRASheet setSheetId:]
+-[BRASheet state]
+-[BRASheet setState:]
+-[BRASheet .cxx_destruct]
+_OBJC_IVAR_$_BRASheet._name
+_OBJC_IVAR_$_BRASheet._identifier
+_OBJC_IVAR_$_BRASheet._sheetId
+_OBJC_IVAR_$_BRASheet._state
+__OBJC_METACLASS_RO_$_BRASheet
+__OBJC_$_INSTANCE_METHODS_BRASheet
+__OBJC_$_INSTANCE_VARIABLES_BRASheet
+__OBJC_$_PROP_LIST_BRASheet
+__OBJC_CLASS_RO_$_BRASheet
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRASheet.m
+XlsxReaderWriter/BRASheet.m
+XlsxReaderWriter/BRASheet.h
++[BRAOfficeDocument fullRelationshipType]
+-[BRAOfficeDocument contentType]
+-[BRAOfficeDocument targetFormat]
+-[BRAOfficeDocument loadXmlContents]
+-[BRAOfficeDocument worksheetNamed:]
+-[BRAOfficeDocument createWorksheetNamed:]
+-[BRAOfficeDocument createWorksheetNamed:byCopyingWorksheet:]
+-[BRAOfficeDocument removeWorksheetNamed:]
+-[BRAOfficeDocument worksheets]
+-[BRAOfficeDocument sheetIdForNewSheet]
+___39-[BRAOfficeDocument sheetIdForNewSheet]_block_invoke
+___copy_helper_block_e8_32r
+___destroy_helper_block_e8_32r
+-[BRAOfficeDocument xmlRepresentation]
+___38-[BRAOfficeDocument xmlRepresentation]_block_invoke
+-[BRAOfficeDocument calcChain]
+-[BRAOfficeDocument setCalcChain:]
+-[BRAOfficeDocument sharedStrings]
+-[BRAOfficeDocument setSharedStrings:]
+-[BRAOfficeDocument styles]
+-[BRAOfficeDocument setStyles:]
+-[BRAOfficeDocument sheets]
+-[BRAOfficeDocument setSheets:]
+-[BRAOfficeDocument .cxx_destruct]
+_OBJC_IVAR_$_BRAOfficeDocument._styles
+_OBJC_CLASSLIST_REFERENCES_$_.26
+_OBJC_IVAR_$_BRAOfficeDocument._sharedStrings
+_OBJC_IVAR_$_BRAOfficeDocument._calcChain
+_OBJC_CLASSLIST_REFERENCES_$_.30
+_OBJC_CLASSLIST_REFERENCES_$_.33
+_OBJC_IVAR_$_BRAOfficeDocument._sheets
+_OBJC_CLASSLIST_REFERENCES_$_.61
+_OBJC_SELECTOR_REFERENCES_.65
+___block_descriptor_40_e8_32r_e25_v32?0"BRASheet"8Q16^B24l
+___block_descriptor_32_e31_q24?0"BRASheet"8"BRASheet"16l
+__OBJC_$_CLASS_METHODS_BRAOfficeDocument
+__OBJC_METACLASS_RO_$_BRAOfficeDocument
+__OBJC_$_INSTANCE_METHODS_BRAOfficeDocument
+__OBJC_$_INSTANCE_VARIABLES_BRAOfficeDocument
+__OBJC_$_PROP_LIST_BRAOfficeDocument
+__OBJC_CLASS_RO_$_BRAOfficeDocument
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAOfficeDocument.m
+XlsxReaderWriter/BRAOfficeDocument.m
+XlsxReaderWriter/BRAOfficeDocument.h
+__38-[BRAOfficeDocument xmlRepresentation]_block_invoke
+__destroy_helper_block_e8_32r
+__copy_helper_block_e8_32r
+__39-[BRAOfficeDocument sheetIdForNewSheet]_block_invoke
++[BRACell cellReferenceForColumnIndex:andRowIndex:]
+-[BRACell initWithReference:andStyleId:inWorksheet:]
+-[BRACell loadAttributes]
+-[BRACell columnIndex]
+-[BRACell columnName]
+-[BRACell rowIndex]
+-[BRACell setNumberFormat:]
+-[BRACell setCellFillWithForegroundColor:backgroundColor:andPatternType:]
+-[BRACell setCellFill:]
+-[BRACell setTextAlignment:]
+-[BRACell cellFillColor]
+-[BRACell cellFill]
+-[BRACell numberFormatCode]
+-[BRACell textAlignment]
+-[BRACell setBoolValue:]
+-[BRACell setIntegerValue:]
+-[BRACell setFloatValue:]
+-[BRACell setStringValue:]
+-[BRACell setAttributedStringValue:]
+-[BRACell setDateValue:]
+-[BRACell setFormulaString:]
+-[BRACell setErrorValue:]
+-[BRACell boolValue]
+-[BRACell integerValue]
+-[BRACell longLongValue]
+-[BRACell floatValue]
+-[BRACell doubleValue]
+-[BRACell stringValue]
+-[BRACell attributedStringValue]
+___32-[BRACell attributedStringValue]_block_invoke
+-[BRACell dateValue]
+-[BRACell formulaString]
+-[BRACell errorValue]
+-[BRACell dictionaryRepresentation]
+-[BRACell description]
+-[BRACell mergeCell]
+-[BRACell setMergeCell:]
+-[BRACell reference]
+-[BRACell setReference:]
+-[BRACell styleId]
+-[BRACell setStyleId:]
+-[BRACell sharedStringIndex]
+-[BRACell setSharedStringIndex:]
+-[BRACell type]
+-[BRACell setType:]
+-[BRACell hasError]
+-[BRACell setError:]
+-[BRACell value]
+-[BRACell setValue:]
+-[BRACell .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.54
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_IVAR_$_BRACell._reference
+_OBJC_IVAR_$_BRACell._styleId
+_OBJC_IVAR_$_BRACell._type
+_OBJC_IVAR_$_BRACell._value
+_OBJC_IVAR_$_BRACell._error
+_OBJC_IVAR_$_BRACell._sharedStringIndex
+_OBJC_CLASSLIST_REFERENCES_$_.103
+_OBJC_CLASSLIST_REFERENCES_$_.121
+_OBJC_CLASSLIST_REFERENCES_$_.132
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_CLASSLIST_REFERENCES_$_.147
+_OBJC_CLASSLIST_REFERENCES_$_.148
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_CLASSLIST_REFERENCES_$_.159
+_OBJC_CLASSLIST_REFERENCES_$_.184
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_CLASSLIST_REFERENCES_$_.193
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_SELECTOR_REFERENCES_.197
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_SELECTOR_REFERENCES_.201
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.214
+___block_descriptor_48_e8_32s40s_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32l
+_OBJC_SELECTOR_REFERENCES_.217
+_OBJC_SELECTOR_REFERENCES_.223
+_OBJC_IVAR_$_BRACell._mergeCell
+__OBJC_$_CLASS_METHODS_BRACell
+__OBJC_METACLASS_RO_$_BRACell
+__OBJC_$_INSTANCE_METHODS_BRACell
+__OBJC_$_INSTANCE_VARIABLES_BRACell
+__OBJC_$_PROP_LIST_BRACell
+__OBJC_CLASS_RO_$_BRACell
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRACell.m
+XlsxReaderWriter/BRACell.m
+XlsxReaderWriter/BRACell.h
+__32-[BRACell attributedStringValue]_block_invoke
++[BRARow rowIndexForCellReference:]
+-[BRARow initWithRowIndex:inWorksheet:]
+-[BRARow loadAttributes]
+-[BRARow setRowIndex:]
+-[BRARow height]
+-[BRARow addCell:]
+-[BRARow dictionaryRepresentation]
+___34-[BRARow dictionaryRepresentation]_block_invoke
+-[BRARow description]
+-[BRARow hasCustomHeight]
+-[BRARow setCustomHeight:]
+-[BRARow rowIndex]
+-[BRARow setHeight:]
+-[BRARow cells]
+-[BRARow setCells:]
+-[BRARow .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.66
+_OBJC_IVAR_$_BRARow._cells
+_OBJC_IVAR_$_BRARow._rowIndex
+_OBJC_IVAR_$_BRARow._height
+_OBJC_IVAR_$_BRARow._customHeight
+_OBJC_CLASSLIST_REFERENCES_$_.89
+___block_descriptor_32_e29_q24?0"BRACell"8"BRACell"16l
+__OBJC_$_CLASS_METHODS_BRARow
+__OBJC_METACLASS_RO_$_BRARow
+__OBJC_$_INSTANCE_METHODS_BRARow
+__OBJC_$_INSTANCE_VARIABLES_BRARow
+__OBJC_$_PROP_LIST_BRARow
+__OBJC_CLASS_RO_$_BRARow
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRARow.m
+XlsxReaderWriter/BRARow.m
+XlsxReaderWriter/BRARow.h
+__34-[BRARow dictionaryRepresentation]_block_invoke
++[BRAColumn columnIndexForCellReference:]
++[BRAColumn columnNameForColumnIndex:]
++[BRAColumn columnNameForCellReference:]
+-[BRAColumn initWithMinimum:andMaximum:]
+-[BRAColumn loadAttributes]
+-[BRAColumn pointWidth]
+-[BRAColumn setPointWidth:]
+-[BRAColumn dictionaryRepresentation]
+-[BRAColumn description]
+-[BRAColumn hasCustomWidth]
+-[BRAColumn setCustomWidth:]
+-[BRAColumn minimum]
+-[BRAColumn setMinimum:]
+-[BRAColumn maximum]
+-[BRAColumn setMaximum:]
+-[BRAColumn width]
+-[BRAColumn setWidth:]
+_OBJC_IVAR_$_BRAColumn._maximum
+_OBJC_IVAR_$_BRAColumn._minimum
+_OBJC_IVAR_$_BRAColumn._customWidth
+_OBJC_IVAR_$_BRAColumn._width
+__OBJC_$_CLASS_METHODS_BRAColumn
+__OBJC_METACLASS_RO_$_BRAColumn
+__OBJC_$_INSTANCE_METHODS_BRAColumn
+__OBJC_$_INSTANCE_VARIABLES_BRAColumn
+__OBJC_$_PROP_LIST_BRAColumn
+__OBJC_CLASS_RO_$_BRAColumn
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAColumn.m
+XlsxReaderWriter/BRAColumn.h
+XlsxReaderWriter/BRAColumn.m
+-[BRAMergeCell firstCellReference]
+__OBJC_METACLASS_RO_$_BRAMergeCell
+__OBJC_$_INSTANCE_METHODS_BRAMergeCell
+__OBJC_CLASS_RO_$_BRAMergeCell
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAMergeCell.m
+XlsxReaderWriter/BRAMergeCell.m
+-[BRACellRange initWithRangeReference:]
+-[BRACellRange dictionaryRepresentation]
+-[BRACellRange reference]
+-[BRACellRange leffColumnIndex]
+-[BRACellRange rightColumnIndex]
+-[BRACellRange setRightColumnIndex:]
+-[BRACellRange setLeffColumnIndex:]
+-[BRACellRange description]
+-[BRACellRange topRowIndex]
+-[BRACellRange setTopRowIndex:]
+-[BRACellRange bottomRowIndex]
+-[BRACellRange setBottomRowIndex:]
+-[BRACellRange .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_IVAR_$_BRACellRange._topRowIndex
+_OBJC_IVAR_$_BRACellRange._bottomRowIndex
+_OBJC_CLASSLIST_REFERENCES_$_.41
+__OBJC_METACLASS_RO_$_BRACellRange
+__OBJC_$_INSTANCE_METHODS_BRACellRange
+__OBJC_$_INSTANCE_VARIABLES_BRACellRange
+__OBJC_$_PROP_LIST_BRACellRange
+__OBJC_CLASS_RO_$_BRACellRange
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRACellRange.m
+XlsxReaderWriter/BRACellRange.m
+XlsxReaderWriter/BRACellRange.h
++[BRAWorksheet fullRelationshipType]
+-[BRAWorksheet contentType]
+-[BRAWorksheet targetFormat]
+-[BRAWorksheet loadXmlContents]
+-[BRAWorksheet xmlRepresentation]
+___33-[BRAWorksheet xmlRepresentation]_block_invoke
+___33-[BRAWorksheet xmlRepresentation]_block_invoke_2
+-[BRAWorksheet mergeCellForCell:]
+-[BRAWorksheet cellForCellReference:]
+-[BRAWorksheet cellForCellReference:shouldCreate:]
+___50-[BRAWorksheet cellForCellReference:shouldCreate:]_block_invoke
+-[BRAWorksheet cellOrFirstCellInMergeCellForCellReference:]
+-[BRAWorksheet newCellForCellReference:]
+___40-[BRAWorksheet newCellForCellReference:]_block_invoke
+-[BRAWorksheet imageForCellReference:]
+-[BRAWorksheet addImage:betweenCellsReferenced:and:withInsets:preserveTransparency:]
+-[BRAWorksheet addImage:inCellReferenced:withOffset:size:preserveTransparency:]
+-[BRAWorksheet addImage:inFrame:preserveTransparency:]
+-[BRAWorksheet drawings]
+-[BRAWorksheet comments]
+-[BRAWorksheet addRowAt:]
+-[BRAWorksheet addRowsAt:count:]
+-[BRAWorksheet removeRow:]
+-[BRAWorksheet removeRow:count:]
+___32-[BRAWorksheet removeRow:count:]_block_invoke
+-[BRAWorksheet isTabSelected]
+-[BRAWorksheet setTabSelected:]
+-[BRAWorksheet cells]
+-[BRAWorksheet setCells:]
+-[BRAWorksheet mergeCells]
+-[BRAWorksheet setMergeCells:]
+-[BRAWorksheet rows]
+-[BRAWorksheet setRows:]
+-[BRAWorksheet columns]
+-[BRAWorksheet setColumns:]
+-[BRAWorksheet dimension]
+-[BRAWorksheet setDimension:]
+-[BRAWorksheet setDrawings:]
+-[BRAWorksheet setComments:]
+-[BRAWorksheet sharedStrings]
+-[BRAWorksheet setSharedStrings:]
+-[BRAWorksheet styles]
+-[BRAWorksheet setStyles:]
+-[BRAWorksheet calcChain]
+-[BRAWorksheet setCalcChain:]
+-[BRAWorksheet .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.63
+_OBJC_CLASSLIST_REFERENCES_$_.70
+_OBJC_IVAR_$_BRAWorksheet._mergeCells
+_OBJC_CLASSLIST_REFERENCES_$_.83
+_OBJC_CLASSLIST_REFERENCES_$_.88
+_OBJC_IVAR_$_BRAWorksheet._columns
+_OBJC_IVAR_$_BRAWorksheet._rows
+_OBJC_IVAR_$_BRAWorksheet._cells
+_OBJC_CLASSLIST_REFERENCES_$_.106
+_OBJC_IVAR_$_BRAWorksheet._drawings
+_OBJC_IVAR_$_BRAWorksheet._comments
+___block_descriptor_32_e39_q24?0"NSDictionary"8"NSDictionary"16l
+___block_literal_global.161
+___block_descriptor_40_e8_32s_e24_B32?0"BRACell"8Q16^B24l
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.204
+___block_descriptor_48_e8_32r_e23_B32?0"BRARow"8Q16^B24l
+_OBJC_SELECTOR_REFERENCES_.211
+_OBJC_SELECTOR_REFERENCES_.213
+_OBJC_CLASSLIST_REFERENCES_$_.216
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_SELECTOR_REFERENCES_.230
+_OBJC_CLASSLIST_REFERENCES_$_.231
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_CLASSLIST_REFERENCES_$_.242
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_CLASSLIST_REFERENCES_$_.251
+_OBJC_SELECTOR_REFERENCES_.255
+_OBJC_SELECTOR_REFERENCES_.259
+_OBJC_SELECTOR_REFERENCES_.263
+_OBJC_CLASSLIST_REFERENCES_$_.264
+_OBJC_SELECTOR_REFERENCES_.266
+_OBJC_SELECTOR_REFERENCES_.268
+_OBJC_SELECTOR_REFERENCES_.286
+_OBJC_CLASSLIST_REFERENCES_$_.295
+_OBJC_IVAR_$_BRAWorksheet._calcChain
+_OBJC_CLASSLIST_REFERENCES_$_.306
+___block_descriptor_32_e24_v32?0"BRACell"8Q16^B24l
+___block_literal_global.308
+_OBJC_SELECTOR_REFERENCES_.312
+_OBJC_SELECTOR_REFERENCES_.314
+_OBJC_SELECTOR_REFERENCES_.316
+_OBJC_SELECTOR_REFERENCES_.318
+_OBJC_SELECTOR_REFERENCES_.320
+_OBJC_SELECTOR_REFERENCES_.322
+_OBJC_IVAR_$_BRAWorksheet._tabSelected
+_OBJC_IVAR_$_BRAWorksheet._sharedStrings
+_OBJC_IVAR_$_BRAWorksheet._styles
+__OBJC_$_CLASS_METHODS_BRAWorksheet
+__OBJC_METACLASS_RO_$_BRAWorksheet
+__OBJC_$_INSTANCE_METHODS_BRAWorksheet
+__OBJC_$_INSTANCE_VARIABLES_BRAWorksheet
+__OBJC_$_PROP_LIST_BRAWorksheet
+__OBJC_CLASS_RO_$_BRAWorksheet
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAWorksheet.m
+XlsxReaderWriter/BRAWorksheet.m
+XlsxReaderWriter/BRAWorksheet.h
+__32-[BRAWorksheet removeRow:count:]_block_invoke
+__40-[BRAWorksheet newCellForCellReference:]_block_invoke
+__50-[BRAWorksheet cellForCellReference:shouldCreate:]_block_invoke
+__33-[BRAWorksheet xmlRepresentation]_block_invoke_2
+__33-[BRAWorksheet xmlRepresentation]_block_invoke
+-[BRAOpenXmlSubElement initWithOpenXmlAttributes:]
+-[BRAOpenXmlSubElement loadAttributes]
+-[BRAOpenXmlSubElement dictionaryRepresentation]
+-[BRAOpenXmlSubElement hash]
+-[BRAOpenXmlSubElement isEqual:]
+-[BRAOpenXmlSubElement setDictionaryRepresentation:]
+-[BRAOpenXmlSubElement .cxx_destruct]
+-[BRAOpenXmlSubElementWithStyle initWithOpenXmlAttributes:inStyles:]
+-[BRAOpenXmlSubElementWithStyle .cxx_destruct]
+-[BRAOpenXmlSubElementWithWorksheet initWithOpenXmlAttributes:inWorksheet:]
+-[BRAOpenXmlSubElementWithWorksheet .cxx_destruct]
+__OBJC_METACLASS_RO_$_BRAOpenXmlSubElement
+__OBJC_$_INSTANCE_METHODS_BRAOpenXmlSubElement
+_OBJC_IVAR_$_BRAOpenXmlSubElement._dictionaryRepresentation
+__OBJC_$_INSTANCE_VARIABLES_BRAOpenXmlSubElement
+__OBJC_$_PROP_LIST_BRAOpenXmlSubElement
+__OBJC_CLASS_RO_$_BRAOpenXmlSubElement
+_OBJC_SELECTOR_REFERENCES_.47
+__OBJC_METACLASS_RO_$_BRAOpenXmlSubElementWithStyle
+__OBJC_$_INSTANCE_METHODS_BRAOpenXmlSubElementWithStyle
+__OBJC_$_INSTANCE_VARIABLES_BRAOpenXmlSubElementWithStyle
+__OBJC_CLASS_RO_$_BRAOpenXmlSubElementWithStyle
+__OBJC_METACLASS_RO_$_BRAOpenXmlSubElementWithWorksheet
+__OBJC_$_INSTANCE_METHODS_BRAOpenXmlSubElementWithWorksheet
+__OBJC_$_INSTANCE_VARIABLES_BRAOpenXmlSubElementWithWorksheet
+__OBJC_CLASS_RO_$_BRAOpenXmlSubElementWithWorksheet
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAOpenXmlSubElement.m
+XlsxReaderWriter/BRAOpenXmlSubElement.m
+XlsxReaderWriter/BRAOpenXmlSubElement.h
+-[BRAOpenXmlElement initWithContentsOfTarget:inParentDirectory:]
+-[BRAOpenXmlElement initWithTarget:inParentDirectory:]
+-[BRAOpenXmlElement loadXmlContents]
+-[BRAOpenXmlElement save]
+-[BRAOpenXmlElement setXmlRepresentation:]
+-[BRAOpenXmlElement xmlRepresentation]
+-[BRAOpenXmlElement setParentDirectory:]
+-[BRAOpenXmlElement hash]
+-[BRAOpenXmlElement isEqual:]
+-[BRAOpenXmlElement target]
+-[BRAOpenXmlElement setTarget:]
+-[BRAOpenXmlElement parentDirectory]
+-[BRAOpenXmlElement dataRepresentation]
+-[BRAOpenXmlElement setDataRepresentation:]
+-[BRAOpenXmlElement .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.23
+_OBJC_CLASSLIST_REFERENCES_$_.32
+__OBJC_METACLASS_RO_$_BRAOpenXmlElement
+__OBJC_$_INSTANCE_METHODS_BRAOpenXmlElement
+_OBJC_IVAR_$_BRAOpenXmlElement._target
+_OBJC_IVAR_$_BRAOpenXmlElement._parentDirectory
+__OBJC_$_INSTANCE_VARIABLES_BRAOpenXmlElement
+__OBJC_$_PROP_LIST_BRAOpenXmlElement
+__OBJC_CLASS_RO_$_BRAOpenXmlElement
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAOpenXmlElement.m
+XlsxReaderWriter/BRAOpenXmlElement.m
+XlsxReaderWriter/BRAOpenXmlElement.h
+-[BRAElementWithRelationships loadXmlContents]
+-[BRAElementWithRelationships save]
+-[BRAElementWithRelationships fullRelationshipsTarget]
+-[BRAElementWithRelationships relationshipsTarget]
+-[BRAElementWithRelationships relationships]
+-[BRAElementWithRelationships setRelationships:]
+-[BRAElementWithRelationships .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.13
+_OBJC_IVAR_$_BRAElementWithRelationships._relationships
+__OBJC_METACLASS_RO_$_BRAElementWithRelationships
+__OBJC_$_INSTANCE_METHODS_BRAElementWithRelationships
+__OBJC_$_INSTANCE_VARIABLES_BRAElementWithRelationships
+__OBJC_$_PROP_LIST_BRAElementWithRelationships
+__OBJC_CLASS_RO_$_BRAElementWithRelationships
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRAElementWithRelationships.m
+XlsxReaderWriter/BRAElementWithRelationships.m
+XlsxReaderWriter/BRAElementWithRelationships.h
+-[BRARelationship initWithId:type:andTarget:inParentDirectory:]
+-[BRARelationship initWithXmlRepresentation:forRelationId:inParentDirectory:]
+-[BRARelationship initWithDataRepresentation:forRelationId:inParentDirectory:]
++[BRARelationship fullRelationshipType]
+-[BRARelationship contentType]
+-[BRARelationship targetFormat]
+-[BRARelationship newTarget]
+-[BRARelationship setParentDirectory:]
+-[BRARelationship copy]
+-[BRARelationship identifier]
+-[BRARelationship setIdentifier:]
+-[BRARelationship type]
+-[BRARelationship setType:]
+-[BRARelationship .cxx_destruct]
+_OBJC_IVAR_$_BRARelationship._identifier
+_OBJC_IVAR_$_BRARelationship._type
+__OBJC_$_CLASS_METHODS_BRARelationship
+__OBJC_METACLASS_RO_$_BRARelationship
+__OBJC_$_INSTANCE_METHODS_BRARelationship
+__OBJC_$_INSTANCE_VARIABLES_BRARelationship
+__OBJC_$_PROP_LIST_BRARelationship
+__OBJC_CLASS_RO_$_BRARelationship
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRARelationship.m
+XlsxReaderWriter/BRARelationship.m
+XlsxReaderWriter/BRARelationship.h
+-[BRARelationships loadXmlContents]
+-[BRARelationships relationshipClassForOpenXmlRelationshipType:]
+-[BRARelationships createRelationshipWithAttributes:]
+-[BRARelationships setParentDirectory:]
+-[BRARelationships relationshipWithId:]
+-[BRARelationships anyRelationshipWithType:]
+-[BRARelationships addRelationship:]
+___36-[BRARelationships addRelationship:]_block_invoke
+-[BRARelationships removeRelationshipWithId:]
+___45-[BRARelationships removeRelationshipWithId:]_block_invoke
+-[BRARelationships relationshipIdForNewRelationship]
+___52-[BRARelationships relationshipIdForNewRelationship]_block_invoke
+-[BRARelationships allRelationships]
+-[BRARelationships save]
+-[BRARelationships copy]
+-[BRARelationships xmlRepresentation]
+-[BRARelationships relationshipsArray]
+-[BRARelationships setRelationshipsArray:]
+-[BRARelationships .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_IVAR_$_BRARelationships._relationshipsArray
+_OBJC_CLASSLIST_REFERENCES_$_.40
+___block_descriptor_40_e8_32s_e32_v32?0"BRARelationship"8Q16^B24l
+___block_descriptor_40_e8_32s_e32_B32?0"BRARelationship"8Q16^B24l
+_OBJC_CLASSLIST_REFERENCES_$_.126
+_OBJC_SELECTOR_REFERENCES_.130
+__OBJC_METACLASS_RO_$_BRARelationships
+__OBJC_$_INSTANCE_METHODS_BRARelationships
+__OBJC_$_INSTANCE_VARIABLES_BRARelationships
+__OBJC_$_PROP_LIST_BRARelationships
+__OBJC_CLASS_RO_$_BRARelationships
+/Users/dm/Repositories/XlsxReaderWriter/XlsxReaderWriter/BRARelationships.m
+XlsxReaderWriter/BRARelationships.m
+XlsxReaderWriter/BRARelationships.h
+__52-[BRARelationships relationshipIdForNewRelationship]_block_invoke
+__45-[BRARelationships removeRelationshipWithId:]_block_invoke
+__36-[BRARelationships addRelationship:]_block_invoke
