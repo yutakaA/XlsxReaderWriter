@@ -10,7 +10,10 @@ XlsxReaderWriter is an Objective-C library for iPhone / iPad and Mac. It parses 
 
 Install [Carthage](https://github.com/Carthage/Carthage#installing-carthage) if not already available 
 
+## WARNING: Using Carthage with Xcode 12 (No ARM64 arch incliuder - New Mac silicon) please read this:
+
 Change to the directory of your Xcode project, and Create and Edit your CartFile and add XlsxReaderWriter:
+[Using Carthage with Xcode 12](https://github.com/Carthage/Carthage/blob/master/Documentation/Xcode12Workaround.md)
 
 ``` bash
 $ cd /path/to/MyProject
