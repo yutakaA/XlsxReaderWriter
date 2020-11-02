@@ -1,6 +1,6 @@
 language: objective-c
 os: osx
-osx_image: xcode12.0
+osx_image: xcode12
 notifications:
     email: false
 
@@ -10,8 +10,8 @@ env:
     - LANG=en_US.UTF-8
     - WORKSPACE=XlsxReaderWriter.xcworkspace
     - IOS_SCHEME="XlsxReaderWriter"
-    - IOS_SDK=iphonesimulator14.1
-    - IOS_DEST="OS=14.1,name=iPhone 12"
+    - IOS_SDK=iphonesimulator14.0
+    - IOS_DEST="OS=14.0,name=iPhone 11"
 
     matrix:
     - DESTINATION="$IOS_DEST" SCHEME="$IOS_SCHEME" SDK="$IOS_SDK" RUN_TESTS="YES"
@@ -20,10 +20,15 @@ cache:
   directories:
     - $HOME/.cocoapods/
 
+before_install:
+    - gem install cocoapods-acknowledgements
+    - gem install cocoapods
+    - pod setup
+    - pod repo update
+
 script:
     - set -o pipefail
     - xcodebuild -version
     - xcodebuild -showsdks
-    - source bundle.sh
-    - lbundle exex pod install
+    - pod install
     - xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test -enableCodeCoverage YES | xcpretty -c
