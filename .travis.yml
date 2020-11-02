@@ -20,6 +20,12 @@ cache:
   directories:
     - $HOME/.cocoapods/
 
+before_install:
+    - gem install cocoapods-acknowledgements
+    - gem install cocoapods
+    - pod setup
+    - pod repo update
+
 script:
     - set -o pipefail
     - xcodebuild -version
