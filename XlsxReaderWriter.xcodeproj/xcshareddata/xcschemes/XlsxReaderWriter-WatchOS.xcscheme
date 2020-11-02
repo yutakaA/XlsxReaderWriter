@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8289AA622041D9F900E00603"
+               BlueprintIdentifier = "8289AAD520420FFC00E00603"
                BuildableName = "XlsxReaderWriter.framework"
-               BlueprintName = "XlsxReaderWriter-iOS"
+               BlueprintName = "XlsxReaderWriter-WatchOS"
                ReferencedContainer = "container:XlsxReaderWriter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,15 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8289AA622041D9F900E00603"
-            BuildableName = "XlsxReaderWriter.framework"
-            BlueprintName = "XlsxReaderWriter-iOS"
-            ReferencedContainer = "container:XlsxReaderWriter.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -59,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8289AA622041D9F900E00603"
+            BlueprintIdentifier = "8289AAD520420FFC00E00603"
             BuildableName = "XlsxReaderWriter.framework"
-            BlueprintName = "XlsxReaderWriter-iOS"
+            BlueprintName = "XlsxReaderWriter-WatchOS"
             ReferencedContainer = "container:XlsxReaderWriter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

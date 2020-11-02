@@ -37,6 +37,15 @@ Cocoapods is outdated v 1.0.11, and apprently it is not possible to update it an
 https://cocoapods.org/pods/XlsxReaderWriter
 if you want to fix it and use the latest version
 
+### Install Cocoapods (gem)
+Either install cocoapods with the official documentation https://cocoapods.org or with gem
+```
+source bundle.sh
+```
+Frome here, instead of `pod install` use `lbundle exec pod install`
+
+## Update you Podfile
+
 ### Method 1 The quick one: 
 
 Just change your pod to this. Please not the branch (here 2.4.0)
@@ -52,7 +61,7 @@ It will change in the future and be merge in master, so keep checkign for update
 
 ```
     ## Change in your Podfile.
-    pod 'XlsxReaderWriter', '~> 2.4.0', :source => 'https://github.com/charlymr/XlsxReaderWriter-Podspecs.git'
+    pod 'XlsxReaderWriter', '~> 2.4', :source => 'https://github.com/charlymr/XlsxReaderWriter-Podspecs.git'
 ```
 
 
@@ -62,7 +71,7 @@ It will change in the future and be merge in master, so keep checkign for update
 source 'https://github.com/charlymr/XlsxReaderWriter-Podspecs.git' 
 
 ## Then you can get the latest version 2.4 +
-    pod 'XlsxReaderWriter', '~> 2.4.0'
+    pod 'XlsxReaderWriter', '~> 2.4'
 ```
 
 
