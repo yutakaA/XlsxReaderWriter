@@ -1,0 +1,43 @@
+{
+  "Mac" : [
+    {
+      "name" : "XlsxReaderWriter",
+      "hash" : "eb946a4f5a525db8969b67728d03b6a433079a5c8432a6ede4a4a6eb03698395"
+    },
+    {
+      "name" : "ZipArchive",
+      "hash" : "55a717a5d1eee689d26e91b559449c35d2bfe8197fd420d75183725d1852e059"
+    },
+    {
+      "name" : "XlsxReaderWriter",
+      "hash" : "eb946a4f5a525db8969b67728d03b6a433079a5c8432a6ede4a4a6eb03698395"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "ZipArchive",
+      "hash" : "5e236766191541b7efb36b1994ad83856ca51c050fedcd9f0f1dffbb36ca2750"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "ZipArchive",
+      "hash" : "26ecdee72c3ec6adcd0771eede4bc9e5a2bacb4f78ff72d88be7d58efaca483a"
+    }
+  ],
+  "commitish" : "ec655c842424a956a0024fffedfaa9bf8542adb6",
+  "iOS" : [
+    {
+      "name" : "ZipArchive",
+      "hash" : "c012e5c575c0d61b151e3e8fd5f8468a0782ef7fe7ef7513f7bf704a817839be"
+    },
+    {
+      "name" : "XlsxReaderWriter",
+      "hash" : "e3e8e949601b7a841aaedd6c780d9425bd6a338dbddb267e7d6f289cdabc34f4"
+    },
+    {
+      "name" : "XlsxReaderWriter",
+      "hash" : "e3e8e949601b7a841aaedd6c780d9425bd6a338dbddb267e7d6f289cdabc34f4"
+    }
+  ]
+}
