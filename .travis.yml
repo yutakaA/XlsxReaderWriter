@@ -25,5 +25,5 @@ script:
     - xcodebuild -version
     - xcodebuild -showsdks
     - source bundle.sh
-    - lbundle exex pod install
+    - lbundle exec pod install
     - xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test -enableCodeCoverage YES | xcpretty -c
