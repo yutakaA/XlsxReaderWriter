@@ -130,6 +130,7 @@
 		45D6FBD81BB279A5002ACC9C /* BRAComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D6FBD71BB279A5002ACC9C /* BRAComment.m */; };
 		5E6858D6760C0568A5050E16 /* Pods_XlsxReaderWriter_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E472C077C3646AA0AB918D /* Pods_XlsxReaderWriter_iOS.framework */; };
 		65D55FAAD2704143A91C9D54 /* Pods_XlsxReaderWriter_WatchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBAEF95C735F164340D6F2D /* Pods_XlsxReaderWriter_WatchOS.framework */; };
+		8201DE4A26B5336B00ABA5EF /* testWorkbook2.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 8201DE4926B5335C00ABA5EF /* testWorkbook2.xlsx */; };
 		82168537255024FE0041F2FD /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 82168535255024D10041F2FD /* libz.1.tbd */; };
 		82168542255025090041F2FD /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8289AAC62041E8B500E00603 /* libz.1.tbd */; };
 		82168549255025160041F2FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82168548255025160041F2FD /* UIKit.framework */; };
@@ -434,6 +435,7 @@
 		5EB0C2307209460BCF1CA6D1 /* Pods-XlsxReaderWriter-WatchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XlsxReaderWriter-WatchOS.release.xcconfig"; path = "Target Support Files/Pods-XlsxReaderWriter-WatchOS/Pods-XlsxReaderWriter-WatchOS.release.xcconfig"; sourceTree = "<group>"; };
 		7399E8B097D2640FB4844801 /* Pods-XlsxReaderWriter-WatchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XlsxReaderWriter-WatchOS.debug.xcconfig"; path = "Target Support Files/Pods-XlsxReaderWriter-WatchOS/Pods-XlsxReaderWriter-WatchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		79E472C077C3646AA0AB918D /* Pods_XlsxReaderWriter_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XlsxReaderWriter_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8201DE4926B5335C00ABA5EF /* testWorkbook2.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = testWorkbook2.xlsx; sourceTree = "<group>"; };
 		82168474255015440041F2FD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		82168475255015500041F2FD /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/usr/lib/libz.1.tbd; sourceTree = DEVELOPER_DIR; };
 		8216849A255015F60041F2FD /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -591,17 +593,6 @@
 			path = XlsxReaderWriter;
 			sourceTree = "<group>";
 		};
-		45B6E2491A148F7500288A78 /* XlsxReaderWriterTests */ = {
-			isa = PBXGroup;
-			children = (
-				82C08AA526B52D7500CD4AA1 /* Resources */,
-				82C08A9026B5278700CD4AA1 /* BRAXlsxReaderWriterTests.m */,
-				82C08A9226B5278700CD4AA1 /* XlsxReaderWriterTests-Bridging-Header.h */,
-			);
-			name = XlsxReaderWriterTests;
-			path = ../XlsxReaderWriterTests;
-			sourceTree = "<group>";
-		};
 		45B6E3081A15125300288A78 /* External Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -611,6 +602,16 @@
 				45B6E3091A1512DD00288A78 /* Foundation.framework */,
 			);
 			name = "External Frameworks";
+			sourceTree = "<group>";
+		};
+		8201DE4326B5317700ABA5EF /* XlsxReaderWriterTests */ = {
+			isa = PBXGroup;
+			children = (
+				82C08AA526B52D7500CD4AA1 /* Resources */,
+				82C08A9026B5278700CD4AA1 /* BRAXlsxReaderWriterTests.m */,
+				82C08A9226B5278700CD4AA1 /* XlsxReaderWriterTests-Bridging-Header.h */,
+			);
+			path = XlsxReaderWriterTests;
 			sourceTree = "<group>";
 		};
 		8287359926B5214B00C4DC60 /* Sources */ = {
@@ -1021,7 +1022,7 @@
 			children = (
 				82C08AA026B52C9800CD4AA1 /* XlsxReaderWriterSwiftTests */,
 				82C08A9726B527C600CD4AA1 /* Info.plist */,
-				45B6E2491A148F7500288A78 /* XlsxReaderWriterTests */,
+				8201DE4326B5317700ABA5EF /* XlsxReaderWriterTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -1056,6 +1057,7 @@
 		82C08AA526B52D7500CD4AA1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8201DE4926B5335C00ABA5EF /* testWorkbook2.xlsx */,
 				82C08AA626B52D7500CD4AA1 /* photo-1415226481302-c40f24f4d45e.jpeg */,
 				82C08AA726B52D7500CD4AA1 /* testWorkbook.xlsx */,
 			);
@@ -1392,6 +1394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8201DE4A26B5336B00ABA5EF /* testWorkbook2.xlsx in Resources */,
 				82C08AA926B52D7500CD4AA1 /* testWorkbook.xlsx in Resources */,
 				82C08AA826B52D7500CD4AA1 /* photo-1415226481302-c40f24f4d45e.jpeg in Resources */,
 			);

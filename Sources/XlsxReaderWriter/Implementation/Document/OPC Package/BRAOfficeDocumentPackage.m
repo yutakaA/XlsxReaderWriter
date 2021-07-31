@@ -48,7 +48,7 @@
         self.target = filePath;
         
         //Unpack the OPC package
-        NSString *subCacheDirectory = [@"fr.brae.spreadsheetdocument" stringByAppendingPathComponent:[filePath lastPathComponent]];
+        NSString *subCacheDirectory = [@"fr.brae.spreadsheetdocument" stringByAppendingPathComponent:[[NSUUID new] description]];
         self.cacheDirectory = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:subCacheDirectory];
         [[NSFileManager defaultManager] createDirectoryAtPath:self.cacheDirectory withIntermediateDirectories:YES attributes:nil error:NULL];
         [SSZipArchive unzipFileAtPath:filePath toDestination:self.cacheDirectory];
@@ -125,8 +125,7 @@
 
 - (void)saveAs:(NSString *)filePath {
     self.target = filePath;
-
-    NSString *subCacheDirectory = [@"fr.brae.spreadsheetdocument" stringByAppendingPathComponent:[filePath lastPathComponent]];
+    NSString *subCacheDirectory = [@"fr.brae.spreadsheetdocument" stringByAppendingPathComponent:[[NSUUID new] description]];
     self.cacheDirectory = [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:subCacheDirectory];
     
     [self save];

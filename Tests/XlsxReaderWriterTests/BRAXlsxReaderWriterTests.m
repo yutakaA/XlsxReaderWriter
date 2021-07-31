@@ -29,6 +29,7 @@
 @interface BRAXlsxReaderWriterTests : XCTestCase
 
 @property (strong, readwrite) BRAOfficeDocumentPackage *spreadsheet;
+@property (strong, readwrite) BRAOfficeDocumentPackage *spreadsheet2;
 
 @end
 
@@ -43,6 +44,10 @@
 
     NSString *documentPath = [[NSBundle bundleForClass:[self class]] pathForResource:@"testWorkbook" ofType:@"xlsx"];
     self.spreadsheet = [BRAOfficeDocumentPackage open:documentPath];
+    
+    NSString *documentPath2 = [[NSBundle bundleForClass:[self class]] pathForResource:@"testWorkbook2" ofType:@"xlsx"];
+    self.spreadsheet2 = [BRAOfficeDocumentPackage open:documentPath2];
+
 }
 
 + (void)tearDown {
@@ -53,6 +58,7 @@
 
 - (void)testReadSpreadsheetDocument {
     XCTAssertNotNil(self.spreadsheet, @"Spreadsheet document can't be read");
+    XCTAssertNotNil(self.spreadsheet2, @"Spreadsheet 2 document can't be read");
 }
 
 - (void)testWorksheet {
@@ -682,6 +688,43 @@
 
     // Testing the fix
     XCTAssertNoThrow([[worksheet cellForCellReference:@"B12"] attributedStringValue], "Not Handling empty cell B12 of Type BRACellContentTypeString");
+}
+
+- (void)testWorksheetNamedDocument2 {
+    XCTAssertNotNil([self.spreadsheet2.workbook worksheetNamed:@"Feuil2"], @"Feuil2 not found");
+    XCTAssertEqualObjects([[self.spreadsheet2.workbook worksheetNamed:@"Feuil2"] class], [BRAWorksheet class], @"Feuil2 should be a BRAWorksheet instance");
+}
+
+- (void)testCellContentStringFor2Documents {
+    BRAWorksheet *worksheet = self.spreadsheet.workbook.worksheets[0];
+
+    XCTAssertEqualObjects([[worksheet cellForCellReference:@"B6"] stringValue], @"shared string", @"B6 should contain @\"shared string\"");
+    XCTAssertEqualObjects([[worksheet cellForCellReference:@"C6"] stringValue], @"shared string with color", @"C6 should contain @\"shared string with color\"");
+    XCTAssertEqualObjects([[worksheet cellForCellReference:@"B4"] stringValue], @"concatenated string", @"B4 should contain @\"concatenated string\"");
+    
+    BRAWorksheet *worksheet2 = self.spreadsheet.workbook.worksheets[0];
+    XCTAssertEqualObjects([[worksheet2 cellForCellReference:@"B6"] stringValue], @"shared string", @"B6 should contain @\"shared string\"");
+    XCTAssertEqualObjects([[worksheet2 cellForCellReference:@"C6"] stringValue], @"shared string with color", @"C6 should contain @\"shared string with color\"");
+    XCTAssertEqualObjects([[worksheet2 cellForCellReference:@"B4"] stringValue], @"concatenated string", @"B4 should contain @\"concatenated string\"");
+
+}
+
+- (void)testConcurencySpreadsheetOpenDocument {
+
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSString *documentPath = [[NSBundle bundleForClass:[self class]] pathForResource:@"testWorkbook2" ofType:@"xlsx"];
+        BRAOfficeDocumentPackage *doc1 = [BRAOfficeDocumentPackage open:documentPath];
+        BRAWorksheet *worksheet = doc1.workbook.worksheets[0];
+        [worksheet removeRow:18];
+        NSInteger rowsCount = worksheet.rows.count;
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+            BRAOfficeDocumentPackage *doc2 = [BRAOfficeDocumentPackage open:documentPath];
+            BRAWorksheet *worksheet2 = doc2.workbook.worksheets[0];
+            NSInteger rowsCount2 = worksheet2.rows.count;
+            XCTAssertEqual(rowsCount, rowsCount2 - 1, @"Worksheet2 should have 1 more row");
+        });
+    });
+
 }
 
 @end
