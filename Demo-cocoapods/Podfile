@@ -1,6 +1,6 @@
 target 'Demo' do
     
-    platform :ios, '10.3'
+    platform :ios, '10.2'
     
     pod 'XlsxReaderWriter', path: '../XlsxReaderWriter.podspec'
     
