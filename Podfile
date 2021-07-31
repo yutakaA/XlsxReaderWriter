@@ -1,5 +1,5 @@
 def thridparty
-    pod 'SSZipArchive', '~> 2.2'
+    pod 'SSZipArchive', '~> 2.4.2'
 end
 
 target 'XlsxReaderWriter' do
