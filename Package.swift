@@ -6,7 +6,10 @@ import PackageDescription
 let package = Package(
     name: "XlsxReaderWriter",
     platforms: [
-       .iOS(.v12),
+        .iOS(.v9),
+        .tvOS(.v9),
+        .macOS(.v10_10),
+        .watchOS(.v2),
     ],
     products: [
         .library(
@@ -22,7 +25,7 @@ let package = Package(
             dependencies: [
                 .product(name: "ZipArchive", package: "ZipArchive"),
             ],
-            publicHeadersPath: "XlsxReaderWriter",
+            publicHeadersPath: ".",
             cSettings: [
                 .headerSearchPath("XlsxReaderWriter"),
                 .headerSearchPath("."),

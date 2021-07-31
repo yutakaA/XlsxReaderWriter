@@ -1,7 +1,7 @@
 PODS:
-  - SSZipArchive (2.2.3)
-  - XlsxReaderWriter (2.4.1):
-    - SSZipArchive (~> 2.1)
+  - SSZipArchive (2.4.2)
+  - XlsxReaderWriter (2.4.2):
+    - SSZipArchive (~> 2.4.2)
 
 DEPENDENCIES:
   - XlsxReaderWriter (from `../XlsxReaderWriter.podspec`)
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../XlsxReaderWriter.podspec"
 
 SPEC CHECKSUMS:
-  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
-  XlsxReaderWriter: 853f56a6d43474c453c48a3a107e756094bca3a3
+  SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
+  XlsxReaderWriter: dca2e5f49fad442d1fb3f4d07e214c5c9004dd48
 
 PODFILE CHECKSUM: cc17584ebb8d1d3b66dd9ddb64aa6f2743311889
 

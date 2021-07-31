@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name               = "XlsxReaderWriter"
-  s.version            = "2.4.1"
+  s.version            = "2.4.2"
   s.summary            = "XlsxReaderWriter is an Objective-C library for iPhone / iPad and Mac. It parses and writes Excel OpenXml files (XLSX)."
   s.homepage           = "https://github.com/charlymr/XlsxReaderWriter"
   s.license            = "MIT"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = '9.0'
   s.osx.deployment_target  = '10.9'
   s.source             = { :git => "https://github.com/charlymr/XlsxReaderWriter.git", :tag => s.version.to_s }
-  s.source_files       = "XlsxReaderWriter/*.{h,m}"
+  s.source_files       = "Sources/XlsxReaderWriter/**/*.{h,m}"
   
   s.frameworks     	   = "Foundation"
   s.ios.frameworks     = "UIKit"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   
   s.requires_arc       = true
 
-  s.dependency "SSZipArchive", "~> 2.1"
+  s.dependency "SSZipArchive", "~> 2.4.2"
 
 end
 
