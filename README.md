@@ -55,7 +55,7 @@ Just change your pod to this. Please not the branch (here 2.4.0)
 It will change in the future and be merge in master, so keep checkign for update.
 ```
     ## Change in your Podfile.
-        pod 'XlsxReaderWriter', podspec: 'https://raw.githubusercontent.com/charlymr/XlsxReaderWriter/2.4.0/XlsxReaderWriter.podspec'
+        pod 'XlsxReaderWriter', podspec: 'https://raw.githubusercontent.com/charlymr/XlsxReaderWriter/2.4.1/XlsxReaderWriter.podspec'
 
 ```
 
