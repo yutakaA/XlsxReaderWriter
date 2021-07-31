@@ -348,7 +348,7 @@
 		454D49FC1B4B27E40053CD86 /* BRATheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRATheme.m; sourceTree = "<group>"; };
 		455542A21C48DE4D00EAB8FE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		455542A31C48DE4D00EAB8FE /* XlsxReaderWriter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XlsxReaderWriter.podspec; sourceTree = SOURCE_ROOT; };
-		455542A61C492C6A00EAB8FE /* BRAPlatformSpecificDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAPlatformSpecificDefines.h; path = XlsxReaderWriter/BRAPlatformSpecificDefines.h; sourceTree = "<group>"; };
+		455542A61C492C6A00EAB8FE /* BRAPlatformSpecificDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAPlatformSpecificDefines.h; sourceTree = "<group>"; };
 		455C23B51BB908D300CEE3A2 /* BRAVmlDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAVmlDrawing.m; sourceTree = "<group>"; };
 		455C23B71BB908DF00CEE3A2 /* BRAVmlDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAVmlDrawing.h; sourceTree = "<group>"; };
 		457B68801B9DE8FB0096E1D1 /* XlsxReaderWriterTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XlsxReaderWriterTests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -570,10 +570,11 @@
 		45B6E2311A148F7500288A78 = {
 			isa = PBXGroup;
 			children = (
+				455542A31C48DE4D00EAB8FE /* XlsxReaderWriter.podspec */,
+				8289AA5C2041CD4A00E00603 /* Cartfile */,
 				455542A21C48DE4D00EAB8FE /* README.md */,
 				8289AA5D2041D98C00E00603 /* CHANGELOG.md */,
-				455542A61C492C6A00EAB8FE /* BRAPlatformSpecificDefines.h */,
-				45B6E23C1A148F7500288A78 /* XlsxReaderWriter */,
+				8287359926B5214B00C4DC60 /* Sources */,
 				45B6E2491A148F7500288A78 /* XlsxReaderWriterTests */,
 				22156D591C46B42500BB5779 /* XlsxReaderWriter-Mac */,
 				8289AA642041D9F900E00603 /* XlsxReaderWriter-iOS */,
@@ -600,8 +601,7 @@
 		45B6E23C1A148F7500288A78 /* XlsxReaderWriter */ = {
 			isa = PBXGroup;
 			children = (
-				455542A31C48DE4D00EAB8FE /* XlsxReaderWriter.podspec */,
-				8289AA5C2041CD4A00E00603 /* Cartfile */,
+				455542A61C492C6A00EAB8FE /* BRAPlatformSpecificDefines.h */,
 				45B6E2711A15068500288A78 /* Additions */,
 				45B6E2871A1506EA00288A78 /* Document */,
 			);
@@ -1045,6 +1045,14 @@
 			name = "Sub Elements";
 			sourceTree = "<group>";
 		};
+		8287359926B5214B00C4DC60 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				45B6E23C1A148F7500288A78 /* XlsxReaderWriter */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		8289AA642041D9F900E00603 /* XlsxReaderWriter-iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -1102,7 +1110,6 @@
 				02DB4B56E84C0BB75D43FD1C /* Pods-XlsxReaderWriterTests.debug.xcconfig */,
 				2D782D0833D78AC9F4DE453A /* Pods-XlsxReaderWriterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

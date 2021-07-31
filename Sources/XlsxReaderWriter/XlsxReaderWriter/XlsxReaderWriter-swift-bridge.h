@@ -30,7 +30,7 @@
 #import <XlsxReaderWriter/BRAContentTypesDefaultExtension.h>
 #import <XlsxReaderWriter/BRAContentTypes.h>
 #import <XlsxReaderWriter/BRAColumn.h>
-#import <XlsxReaderWriter/BRACellRange.h>
+#import <XlsxReaderWriter/BRACellRange.h    >
 #import <XlsxReaderWriter/BRACellFormat.h>
 #import <XlsxReaderWriter/BRACellFill.h>
 #import <XlsxReaderWriter/BRACell.h>
