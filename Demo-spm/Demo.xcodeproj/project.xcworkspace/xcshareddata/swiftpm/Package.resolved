@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "XlsxReaderWriter",
+        "repositoryURL": "https://github.com/charlymr/XlsxReaderWriter.git",
+        "state": {
+          "branch": null,
+          "revision": "d4a1f74d7c28d40113ebe2397adfdc9304f91a5f",
+          "version": "2.4.2"
+        }
+      },
+      {
         "package": "ZipArchive",
         "repositoryURL": "https://github.com/ZipArchive/ZipArchive",
         "state": {

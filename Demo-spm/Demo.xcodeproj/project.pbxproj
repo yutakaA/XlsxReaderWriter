@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8201DE4026B52FE200ABA5EF /* XlsxReaderWriter in Frameworks */ = {isa = PBXBuildFile; productRef = 8201DE3F26B52FE200ABA5EF /* XlsxReaderWriter */; };
 		826068722049437A00116455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826068712049437A00116455 /* AppDelegate.swift */; };
 		826068742049437A00116455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826068732049437A00116455 /* ViewController.swift */; };
 		826068772049437A00116455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826068752049437A00116455 /* Main.storyboard */; };
 		826068792049437B00116455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826068782049437A00116455 /* Assets.xcassets */; };
 		8260687C2049437B00116455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8260687A2049437B00116455 /* LaunchScreen.storyboard */; };
 		82904D432049483500760D35 /* testWorkbook.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 82904D422049483500760D35 /* testWorkbook.xlsx */; };
+		82D7BB7726B7EAF1006F5077 /* XlsxReaderWriter in Frameworks */ = {isa = PBXBuildFile; productRef = 82D7BB7626B7EAF1006F5077 /* XlsxReaderWriter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,7 +38,6 @@
 		8260687B2049437B00116455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8260687D2049437B00116455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82904D422049483500760D35 /* testWorkbook.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = testWorkbook.xlsx; sourceTree = "<group>"; };
-		82C08A9926B5295C00CD4AA1 /* XlsxReaderWriter */ = {isa = PBXFileReference; lastKnownFileType = folder; name = XlsxReaderWriter; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8201DE4026B52FE200ABA5EF /* XlsxReaderWriter in Frameworks */,
+				82D7BB7726B7EAF1006F5077 /* XlsxReaderWriter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +55,6 @@
 		826068652049437A00116455 = {
 			isa = PBXGroup;
 			children = (
-				82C08A9926B5295C00CD4AA1 /* XlsxReaderWriter */,
 				82904D422049483500760D35 /* testWorkbook.xlsx */,
 				826068702049437A00116455 /* Demo */,
 				8260686F2049437A00116455 /* Products */,
@@ -111,7 +109,7 @@
 			);
 			name = Demo;
 			packageProductDependencies = (
-				8201DE3F26B52FE200ABA5EF /* XlsxReaderWriter */,
+				82D7BB7626B7EAF1006F5077 /* XlsxReaderWriter */,
 			);
 			productName = Demo;
 			productReference = 8260686E2049437A00116455 /* Demo.app */;
@@ -143,6 +141,9 @@
 				Base,
 			);
 			mainGroup = 826068652049437A00116455;
+			packageReferences = (
+				82D7BB7526B7EAF1006F5077 /* XCRemoteSwiftPackageReference "XlsxReaderWriter" */,
+			);
 			productRefGroup = 8260686F2049437A00116455 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -382,13 +383,25 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		82D7BB7526B7EAF1006F5077 /* XCRemoteSwiftPackageReference "XlsxReaderWriter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/charlymr/XlsxReaderWriter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		8201DE3F26B52FE200ABA5EF /* XlsxReaderWriter */ = {
+		8201DE4126B52FE800ABA5EF /* XlsxReaderWriter */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = XlsxReaderWriter;
 		};
-		8201DE4126B52FE800ABA5EF /* XlsxReaderWriter */ = {
+		82D7BB7626B7EAF1006F5077 /* XlsxReaderWriter */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 82D7BB7526B7EAF1006F5077 /* XCRemoteSwiftPackageReference "XlsxReaderWriter" */;
 			productName = XlsxReaderWriter;
 		};
 /* End XCSwiftPackageProductDependency section */
