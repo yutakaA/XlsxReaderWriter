@@ -139,7 +139,14 @@
 		8265BC312041C4BE004A2A7D /* XlsxReaderXMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 8265BC2F2041C4BE004A2A7D /* XlsxReaderXMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8265BC322041C4BE004A2A7D /* XlsxReaderXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8265BC302041C4BE004A2A7D /* XlsxReaderXMLDictionary.m */; };
 		8265BC332041C4BE004A2A7D /* XlsxReaderXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8265BC302041C4BE004A2A7D /* XlsxReaderXMLDictionary.m */; };
-		8289AA672041D9F900E00603 /* XlsxReaderWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8289AA652041D9F900E00603 /* XlsxReaderWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827A14DF26B7BC03008EB8C2 /* BRAHyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 827A14DE26B7BC03008EB8C2 /* BRAHyperlink.m */; };
+		827A14E026B7BC03008EB8C2 /* BRAHyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 827A14DE26B7BC03008EB8C2 /* BRAHyperlink.m */; };
+		827A14E126B7BC03008EB8C2 /* BRAHyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 827A14DE26B7BC03008EB8C2 /* BRAHyperlink.m */; };
+		827A14E226B7BC03008EB8C2 /* BRAHyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 827A14DE26B7BC03008EB8C2 /* BRAHyperlink.m */; };
+		827A14E426B7BC1F008EB8C2 /* BRAHyperlink.h in Headers */ = {isa = PBXBuildFile; fileRef = 827A14E326B7BC1F008EB8C2 /* BRAHyperlink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827A14E526B7BC1F008EB8C2 /* BRAHyperlink.h in Headers */ = {isa = PBXBuildFile; fileRef = 827A14E326B7BC1F008EB8C2 /* BRAHyperlink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827A14E626B7BC1F008EB8C2 /* BRAHyperlink.h in Headers */ = {isa = PBXBuildFile; fileRef = 827A14E326B7BC1F008EB8C2 /* BRAHyperlink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827A14E826B7BCB6008EB8C2 /* google.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 827A14E726B7BCB6008EB8C2 /* google.xlsx */; };
 		8289AA6B2041DA4800E00603 /* XlsxReaderXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8265BC302041C4BE004A2A7D /* XlsxReaderXMLDictionary.m */; };
 		8289AA6C2041DA4800E00603 /* NSDictionary+DeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4580C6CE1A15171B00790ED5 /* NSDictionary+DeepCopy.m */; };
 		8289AA6D2041DA4800E00603 /* NSDictionary+OpenXMLDictionaryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4580C6D01A15171B00790ED5 /* NSDictionary+OpenXMLDictionaryParser.m */; };
@@ -449,11 +456,12 @@
 		8216854A255025270041F2FD /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
 		8265BC2F2041C4BE004A2A7D /* XlsxReaderXMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XlsxReaderXMLDictionary.h; sourceTree = "<group>"; };
 		8265BC302041C4BE004A2A7D /* XlsxReaderXMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XlsxReaderXMLDictionary.m; sourceTree = "<group>"; };
+		827A14DE26B7BC03008EB8C2 /* BRAHyperlink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAHyperlink.m; sourceTree = "<group>"; };
+		827A14E326B7BC1F008EB8C2 /* BRAHyperlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAHyperlink.h; sourceTree = "<group>"; };
+		827A14E726B7BCB6008EB8C2 /* google.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = google.xlsx; sourceTree = "<group>"; };
 		8289AA5C2041CD4A00E00603 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		8289AA5D2041D98C00E00603 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		8289AA632041D9F900E00603 /* XlsxReaderWriter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XlsxReaderWriter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8289AA652041D9F900E00603 /* XlsxReaderWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XlsxReaderWriter.h; sourceTree = "<group>"; };
-		8289AA662041D9F900E00603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8289AAC42041E8A900E00603 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8289AAC62041E8B500E00603 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
 		8289AAD620420FFC00E00603 /* XlsxReaderWriter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XlsxReaderWriter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -464,8 +472,6 @@
 		82C08A9126B5278700CD4AA1 /* XlsxReaderWriterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XlsxReaderWriterTests.swift; path = Tests/XlsxReaderWriterSwiftTests/XlsxReaderWriterTests.swift; sourceTree = SOURCE_ROOT; };
 		82C08A9226B5278700CD4AA1 /* XlsxReaderWriterTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XlsxReaderWriterTests-Bridging-Header.h"; path = "Tests/XlsxReaderWriterTests/XlsxReaderWriterTests-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		82C08A9726B527C600CD4AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82C08AA126B52CB800CD4AA1 /* photo-1415226481302-c40f24f4d45e.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1415226481302-c40f24f4d45e.jpeg"; sourceTree = "<group>"; };
-		82C08AA226B52CB800CD4AA1 /* testWorkbook.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = testWorkbook.xlsx; sourceTree = "<group>"; };
 		82C08AA626B52D7500CD4AA1 /* photo-1415226481302-c40f24f4d45e.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-1415226481302-c40f24f4d45e.jpeg"; sourceTree = "<group>"; };
 		82C08AA726B52D7500CD4AA1 /* testWorkbook.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = testWorkbook.xlsx; sourceTree = "<group>"; };
 		82DAA596237BF79D003AFDE7 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -563,7 +569,6 @@
 				8287359926B5214B00C4DC60 /* Sources */,
 				82C08A8D26B5273200CD4AA1 /* Tests */,
 				22156D591C46B42500BB5779 /* XlsxReaderWriter-Mac */,
-				8289AA642041D9F900E00603 /* XlsxReaderWriter-iOS */,
 				8289AAD720420FFC00E00603 /* XlsxReaderWriter-WatchOS */,
 				45B6E3081A15125300288A78 /* External Frameworks */,
 				45B6E23B1A148F7500288A78 /* Products */,
@@ -614,21 +619,20 @@
 			path = XlsxReaderWriterTests;
 			sourceTree = "<group>";
 		};
+		827A14DD26B7BC03008EB8C2 /* Hyperlink */ = {
+			isa = PBXGroup;
+			children = (
+				827A14DE26B7BC03008EB8C2 /* BRAHyperlink.m */,
+			);
+			path = Hyperlink;
+			sourceTree = "<group>";
+		};
 		8287359926B5214B00C4DC60 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				45B6E23C1A148F7500288A78 /* XlsxReaderWriter */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		8289AA642041D9F900E00603 /* XlsxReaderWriter-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				8289AA652041D9F900E00603 /* XlsxReaderWriter.h */,
-				8289AA662041D9F900E00603 /* Info.plist */,
-			);
-			path = "XlsxReaderWriter-iOS";
 			sourceTree = "<group>";
 		};
 		8289AAC12041E85800E00603 /* Frameworks */ = {
@@ -711,6 +715,7 @@
 				4580C6971A15164600790ED5 /* BRAColumn.h */,
 				4580C6941A15163A00790ED5 /* BRAMergeCell.h */,
 				4580C6911A15162D00790ED5 /* BRACellRange.h */,
+				827A14E326B7BC1F008EB8C2 /* BRAHyperlink.h */,
 				450E98F71B9783D500177B4A /* XlsxReaderWriter-swift-bridge.h */,
 			);
 			path = XlsxReaderWriter;
@@ -757,7 +762,7 @@
 		82C08A6C26B5253900CD4AA1 /* Document */ = {
 			isa = PBXGroup;
 			children = (
-				82C08A6E26B5255D00CD4AA1 /* Shared */,
+				82C08A6E26B5255D00CD4AA1 /* Sub Element */,
 				82C08A6D26B5254400CD4AA1 /* OPC Package */,
 			);
 			path = Document;
@@ -771,6 +776,7 @@
 				82C08A7726B525D600CD4AA1 /* Comments */,
 				82C08A7826B525DD00CD4AA1 /* Content types */,
 				82C08A7926B525E300CD4AA1 /* Drawing */,
+				827A14DD26B7BC03008EB8C2 /* Hyperlink */,
 				82C08A7A26B525E800CD4AA1 /* Image */,
 				82C08A7C26B525F100CD4AA1 /* Shared strings */,
 				82C08A7D26B525F600CD4AA1 /* Styles */,
@@ -782,12 +788,13 @@
 			path = "OPC Package";
 			sourceTree = "<group>";
 		};
-		82C08A6E26B5255D00CD4AA1 /* Shared */ = {
+		82C08A6E26B5255D00CD4AA1 /* Sub Element */ = {
 			isa = PBXGroup;
 			children = (
 				82C08A7026B5256C00CD4AA1 /* Abstract classes */,
 				82C08A6F26B5256700CD4AA1 /* Protocol */,
 			);
+			name = "Sub Element";
 			path = Shared;
 			sourceTree = "<group>";
 		};
@@ -1040,23 +1047,14 @@
 			isa = PBXGroup;
 			children = (
 				82C08A9126B5278700CD4AA1 /* XlsxReaderWriterTests.swift */,
-				82C08AA426B52CFF00CD4AA1 /* Resources */,
 			);
 			path = XlsxReaderWriterSwiftTests;
-			sourceTree = "<group>";
-		};
-		82C08AA426B52CFF00CD4AA1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				82C08AA126B52CB800CD4AA1 /* photo-1415226481302-c40f24f4d45e.jpeg */,
-				82C08AA226B52CB800CD4AA1 /* testWorkbook.xlsx */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		82C08AA526B52D7500CD4AA1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				827A14E726B7BCB6008EB8C2 /* google.xlsx */,
 				8201DE4926B5335C00ABA5EF /* testWorkbook2.xlsx */,
 				82C08AA626B52D7500CD4AA1 /* photo-1415226481302-c40f24f4d45e.jpeg */,
 				82C08AA726B52D7500CD4AA1 /* testWorkbook.xlsx */,
@@ -1123,6 +1121,7 @@
 				22156DA91C46B62B00BB5779 /* BRAWorksheet.h in Headers */,
 				22156DAA1C46B62B00BB5779 /* BRARelatedToColumnAndRowProtocol.h in Headers */,
 				22156DAB1C46B62B00BB5779 /* BRAOpenXmlSubElement.h in Headers */,
+				827A14E426B7BC1F008EB8C2 /* BRAHyperlink.h in Headers */,
 				22156DAC1C46B62B00BB5779 /* BRAOpenXmlElement.h in Headers */,
 				22156DAD1C46B62B00BB5779 /* BRAElementWithRelationships.h in Headers */,
 				22225F301C47F75000256993 /* XlsxReaderWriter.h in Headers */,
@@ -1137,7 +1136,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8289AA672041D9F900E00603 /* XlsxReaderWriter.h in Headers */,
 				8289AA942041DA8D00E00603 /* NSDictionary+DeepCopy.h in Headers */,
 				8289AA952041DA8D00E00603 /* NSDictionary+OpenXMLDictionaryParser.h in Headers */,
 				8289AA962041DA8D00E00603 /* NSDictionary+OpenXmlString.h in Headers */,
@@ -1174,6 +1172,7 @@
 				8289AAB52041DA8D00E00603 /* BRAWorksheet.h in Headers */,
 				8289AAB62041DA8E00E00603 /* BRARelatedToColumnAndRowProtocol.h in Headers */,
 				8289AAB72041DA8E00E00603 /* BRAOpenXmlSubElement.h in Headers */,
+				827A14E526B7BC1F008EB8C2 /* BRAHyperlink.h in Headers */,
 				8289AAB82041DA8E00E00603 /* BRAOpenXmlElement.h in Headers */,
 				8289AAB92041DA8E00E00603 /* BRAElementWithRelationships.h in Headers */,
 				8289AABA2041DA8E00E00603 /* BRARelationship.h in Headers */,
@@ -1203,6 +1202,7 @@
 				8289AAEB2042117B00E00603 /* BRAComments.h in Headers */,
 				8289AAEC2042117B00E00603 /* BRAContentTypesOverride.h in Headers */,
 				8289AAED2042117B00E00603 /* BRAContentTypesDefaultExtension.h in Headers */,
+				827A14E626B7BC1F008EB8C2 /* BRAHyperlink.h in Headers */,
 				8289AAEE2042117B00E00603 /* BRAContentTypes.h in Headers */,
 				8289AAEF2042117B00E00603 /* BRAWorksheetDrawing.h in Headers */,
 				8289AAF02042117B00E00603 /* BRADrawing.h in Headers */,
@@ -1395,6 +1395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8201DE4A26B5336B00ABA5EF /* testWorkbook2.xlsx in Resources */,
+				827A14E826B7BCB6008EB8C2 /* google.xlsx in Resources */,
 				82C08AA926B52D7500CD4AA1 /* testWorkbook.xlsx in Resources */,
 				82C08AA826B52D7500CD4AA1 /* photo-1415226481302-c40f24f4d45e.jpeg in Resources */,
 			);
@@ -1551,6 +1552,7 @@
 				22156D731C46B5DC00BB5779 /* BRACellFormat.m in Sources */,
 				22156D741C46B5DC00BB5779 /* BRANumberFormat.m in Sources */,
 				22156D751C46B5DC00BB5779 /* BRACellFill.m in Sources */,
+				827A14E026B7BC03008EB8C2 /* BRAHyperlink.m in Sources */,
 				22156D761C46B5DC00BB5779 /* BRAStyles.m in Sources */,
 				22156D771C46B5DC00BB5779 /* BRATheme.m in Sources */,
 				22156D781C46B5DC00BB5779 /* BRAVmlDrawing.m in Sources */,
@@ -1597,6 +1599,7 @@
 				4580C6961A15163A00790ED5 /* BRAMergeCell.m in Sources */,
 				4580C6A21A15167400790ED5 /* BRACellFill.m in Sources */,
 				4580C6B71A1516BF00790ED5 /* BRAOfficeDocument.m in Sources */,
+				827A14DF26B7BC03008EB8C2 /* BRAHyperlink.m in Sources */,
 				454D49FD1B4B27E40053CD86 /* BRATheme.m in Sources */,
 				4580C69C1A15165100790ED5 /* BRARow.m in Sources */,
 				455C23B61BB908D300CEE3A2 /* BRAVmlDrawing.m in Sources */,
@@ -1652,6 +1655,7 @@
 				8289AA7D2041DA4800E00603 /* BRASharedString.m in Sources */,
 				8289AA7E2041DA4800E00603 /* BRASharedStrings.m in Sources */,
 				8289AA7F2041DA4800E00603 /* BRACellFormat.m in Sources */,
+				827A14E126B7BC03008EB8C2 /* BRAHyperlink.m in Sources */,
 				8289AA802041DA4800E00603 /* BRANumberFormat.m in Sources */,
 				8289AA812041DA4800E00603 /* BRACellFill.m in Sources */,
 				8289AA822041DA4800E00603 /* BRAStyles.m in Sources */,
@@ -1698,6 +1702,7 @@
 				8289AB1A2042118900E00603 /* BRASharedString.m in Sources */,
 				8289AB1B2042118900E00603 /* BRASharedStrings.m in Sources */,
 				8289AB1C2042118900E00603 /* BRACellFormat.m in Sources */,
+				827A14E226B7BC03008EB8C2 /* BRAHyperlink.m in Sources */,
 				8289AB1D2042118900E00603 /* BRANumberFormat.m in Sources */,
 				8289AB1E2042118900E00603 /* BRACellFill.m in Sources */,
 				8289AB1F2042118900E00603 /* BRAStyles.m in Sources */,

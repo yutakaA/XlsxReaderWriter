@@ -56,6 +56,20 @@
     [super tearDown];
 }
 
+- (void)testHyperlink {
+    NSString *documentPath = [[NSBundle bundleForClass:[self class]] pathForResource:@"google" ofType:@"xlsx"];
+    BRAOfficeDocumentPackage *spreadsheet = [BRAOfficeDocumentPackage open:documentPath];
+    XCTAssertNotNil(spreadsheet, @"Spreadsheet document can't be read");
+    BRAWorksheet *worksheet = spreadsheet.workbook.worksheets[0];
+    BRACell *cell = [worksheet cellForCellReference:@"A2"];
+    XCTAssertEqualObjects([cell stringValue], @"google");
+    XCTAssertEqualObjects([cell targetString], @"https://google.com");
+
+    cell = [worksheet cellForCellReference:@"B2"];
+    XCTAssertEqualObjects([cell stringValue], @"apple");
+    XCTAssertEqualObjects([cell targetString], @"https://www.apple.com");
+}
+
 - (void)testReadSpreadsheetDocument {
     XCTAssertNotNil(self.spreadsheet, @"Spreadsheet document can't be read");
     XCTAssertNotNil(self.spreadsheet2, @"Spreadsheet 2 document can't be read");
