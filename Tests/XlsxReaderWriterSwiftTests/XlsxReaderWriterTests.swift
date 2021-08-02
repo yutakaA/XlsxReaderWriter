@@ -11,6 +11,16 @@ import XCTest
 
 class SwiftTestCase: XCTestCase {
     
+    let odp: BRAOfficeDocumentPackage = BRAOfficeDocumentPackage.open(Bundle(for: SwiftTestCase.self).path(forResource: "testWorkbook", ofType: "xlsx"))
+    
+    func getDocumentsDirectory() -> URL {
+        // find all possible documents directories for this user
+        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+
+        // just send back the first one, which ought to be the only one
+        return paths[0]
+    }
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,11 +32,6 @@ class SwiftTestCase: XCTestCase {
     }
 
     func testSwiftOpenClose() {
-        // This is an example of a functional test case.
-        let documentPath = Bundle(for: self.classForCoder).path(forResource: "testWorkbook", ofType: "xlsx")
-        NSLog("%@", documentPath!)
-        
-        let odp: BRAOfficeDocumentPackage = BRAOfficeDocumentPackage.open(documentPath)
         XCTAssertNotNil(odp, "Office document package should not be nil")
 
         XCTAssertNotNil(odp.workbook, "Office document package should contain a workbook")
@@ -40,4 +45,35 @@ class SwiftTestCase: XCTestCase {
         XCTAssert(FileManager.default.fileExists(atPath: fullPath), "No file exists at \(fullPath)")
     }
 
+    func testSwiftAddImageClose() {
+        NSLog("Testing code from github issue #11")
+        XCTAssertNotNil(odp.workbook, "Office document package should contain a workbook")
+
+        let worksheet: BRAWorksheet = odp.workbook.worksheets[0] as! BRAWorksheet;
+        XCTAssertNotNil(worksheet, "Worksheet should not be nil")
+
+        let filePath = Bundle(for: self.classForCoder).path(forResource: "photo-1415226481302-c40f24f4d45e", ofType: "jpeg")!
+        let fileURL = URL(fileURLWithPath: filePath)
+        let data = try? Data(contentsOf: fileURL)
+        let image = UIImage(data: data!)
+        
+        let size = CGSize(width: image!.size.width * 6350, height: image!.size.height * 6350)
+        let drawing = worksheet.add(image, inCellReferenced: "H2",
+                                    withOffset: CGPoint(x:15, y:10),
+                                    size: size ,
+                                    preserveTransparency: true)
+        
+        XCTAssertNotNil(drawing, "No drawing created");
+        
+        let url = self.getDocumentsDirectory().appendingPathComponent("testAddOnceCellAnchoredImageGithubIssue11.xlsx")
+        odp.save(as: url.path)
+        print(url)
+        
+    }
+
 }
+//BRAWorksheetDrawing *drawing = [worksheet addImage:image
+//                                  inCellReferenced:@"G2"
+//                                        withOffset:CGPointZero
+//                                              size:CGSizeMake(400. * 12700, 300 * 12700)
+//                              preserveTransparency:NO];
