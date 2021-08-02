@@ -6,6 +6,26 @@
 XlsxReaderWriter is an Objective-C library for iPhone / iPad and Mac. It parses and writes Excel OpenXml files (XLSX).
 
 
+## Integrate using [Swift Package Manager](https://swift.org/package-manager/) 
+
+Add the SPM Dependency to your project:
+```
+https://github.com/charlymr/XlsxReaderWriter
+```
+
+<strong>WARNING: Use from version 2.4.2</strong>
+
+Add the Library to your target.
+
+Select the Project file -> General -> Framewors, Libraries, and Embededded Content =>
+Add -> XlsxReaderWriter
+
+Add the import to your source 
+##### Swift
+```swift
+import XlsxReaderWriter
+```
+
 ## Integrate using Carthage
 
 Install [Carthage](https://github.com/Carthage/Carthage#installing-carthage) if not already available 

@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 2.4.2
+- Added swift package support
+- can see the target of hyperlinks. They show as non-nil targetStrings of the cell.	(David Phillip Oster)
+
+## 2.4.1
+- XCode 12 update 
+- Use angled bracket imports (Darren Jones)
+- Using GEM
+- Carthage update
+
 ## 2.4.0
 - Version 2.4 is introducing an important dependency changes
 	- The Library XMLDictionary is [Deprecated](https://github.com/nicklockwood/XMLDictionary), for this reason the code
