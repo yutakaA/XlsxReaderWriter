@@ -12,27 +12,10 @@
 		826068772049437A00116455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826068752049437A00116455 /* Main.storyboard */; };
 		826068792049437B00116455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826068782049437A00116455 /* Assets.xcassets */; };
 		8260687C2049437B00116455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8260687A2049437B00116455 /* LaunchScreen.storyboard */; };
-		82904D3E2049479200760D35 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82904D3B2049479200760D35 /* ZipArchive.framework */; };
-		82904D3F2049479200760D35 /* ZipArchive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82904D3B2049479200760D35 /* ZipArchive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		82904D432049483500760D35 /* testWorkbook.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 82904D422049483500760D35 /* testWorkbook.xlsx */; };
-		82DAA58C237BF4BB003AFDE7 /* XlsxReaderWriter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAA58A237BF49C003AFDE7 /* XlsxReaderWriter.framework */; };
-		82DAA58D237BF4BB003AFDE7 /* XlsxReaderWriter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAA58A237BF49C003AFDE7 /* XlsxReaderWriter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		82D7BB7026B7E8BD006F5077 /* XlsxReaderWriter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAA58A237BF49C003AFDE7 /* XlsxReaderWriter.framework */; };
+		82D7BB7326B7E8BF006F5077 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82904D3B2049479200760D35 /* ZipArchive.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		82904D292049451500760D35 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				82904D3F2049479200760D35 /* ZipArchive.framework in Embed Frameworks */,
-				82DAA58D237BF4BB003AFDE7 /* XlsxReaderWriter.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8260686E2049437A00116455 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,8 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82904D3E2049479200760D35 /* ZipArchive.framework in Frameworks */,
-				82DAA58C237BF4BB003AFDE7 /* XlsxReaderWriter.framework in Frameworks */,
+				82D7BB7026B7E8BD006F5077 /* XlsxReaderWriter.framework in Frameworks */,
+				82D7BB7326B7E8BF006F5077 /* ZipArchive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +85,6 @@
 				8260686A2049437A00116455 /* Sources */,
 				8260686B2049437A00116455 /* Frameworks */,
 				8260686C2049437A00116455 /* Resources */,
-				82904D292049451500760D35 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

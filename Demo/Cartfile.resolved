@@ -1,2 +1,2 @@
-git "/Users/dm/Repositories/XlsxReaderWriter" "9347c6ff75ab81a58708e460d8839c0a6080b3e5"
 github "ZipArchive/ZipArchive" "v2.4.2"
+github "charlymr/XlsxReaderWriter" "2.4.2"
