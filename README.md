@@ -31,6 +31,7 @@ import XlsxReaderWriter
 Install [Carthage](https://github.com/Carthage/Carthage#installing-carthage) if not already available 
 
 ## WARNING: Using Carthage with Xcode 12 (No ARM64 arch incliuder - New Mac silicon) please read this:
+## The zip included for Carthage use the provided carthage.sh file. If you use a New Mac silicon you will need to build
 
 Change to the directory of your Xcode project, and Create and Edit your CartFile and add XlsxReaderWriter:
 [Using Carthage with Xcode 12](https://github.com/Carthage/Carthage/blob/master/Documentation/Xcode12Workaround.md)
@@ -40,7 +41,7 @@ $ cd /path/to/MyProject
 $ touch CartFile
 $ edit CartFile
 
-github "charlymr/XlsxReaderWriter" ~> 2.4
+github "charlymr/XlsxReaderWriter" ~> 2.4.2
 ```
 
 Save and run:

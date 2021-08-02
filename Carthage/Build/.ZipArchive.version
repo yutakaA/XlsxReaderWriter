@@ -1,7 +1,7 @@
 {
   "Mac" : [
     {
-      "hash" : "007db225e5949c5ce6d00330e68af804d1df9d567327f170941cc5b9e84c8188",
+      "hash" : "85bfd62e54c960169d887fb277c8ca5f7cb445cd7631399fd7f74ab1a89c4ea7",
       "name" : "ZipArchive",
       "container" : "ZipArchive.xcframework",
       "identifier" : "macos-arm64_x86_64"
@@ -9,13 +9,13 @@
   ],
   "watchOS" : [
     {
-      "hash" : "a307d47867550d8b6a3ddf5c7d755bcafef78751451824a31a9460d986be43e9",
+      "hash" : "218ae47255cf99b26c5d454840fb15b7fa8c441275b48d0bd054143e8134d5f8",
       "name" : "ZipArchive",
       "container" : "ZipArchive.xcframework",
-      "identifier" : "watchos-arm64_i386_x86_64-simulator"
+      "identifier" : "watchos-i386_x86_64-simulator"
     },
     {
-      "hash" : "4175f3bc06bb9ff04ab8cb7a763a9d1ac6ab8e05e159bec3a3ed16fe61ad8fe5",
+      "hash" : "7ddde4a7dc40987da5dc30e833cde440144a4af26588f85855de6e875217c9cf",
       "name" : "ZipArchive",
       "container" : "ZipArchive.xcframework",
       "identifier" : "watchos-arm64_32_armv7k"
@@ -23,28 +23,28 @@
   ],
   "tvOS" : [
     {
-      "hash" : "44c15458319b8306f1710ec065eedcb66b1c83bb673ef33beb6b55ae07995d60",
+      "hash" : "75dbbbc75da0f6cf0adff946cd156a133d3c57c41316e9cbc60992740b2f4a6b",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "tvos-x86_64-simulator"
+    },
+    {
+      "hash" : "1dbc1b9b530a2be32d998b2cf763c51fc84088afbb5fab1c693c917074c8f7a8",
       "name" : "ZipArchive",
       "container" : "ZipArchive.xcframework",
       "identifier" : "tvos-arm64"
-    },
-    {
-      "hash" : "40128a2483239f603e73c4e6fe4b78159ba05a6e0233f1b112e8572009a10ca2",
-      "name" : "ZipArchive",
-      "container" : "ZipArchive.xcframework",
-      "identifier" : "tvos-arm64_x86_64-simulator"
     }
   ],
   "commitish" : "v2.4.2",
   "iOS" : [
     {
-      "hash" : "d0434ff6961ec60cd564bcd86a516f46334131e0d5b8ccfe9ccb777bcd4d0e62",
+      "hash" : "bdac98d806a0c011d18619341136865eb41f7f772c41fdc4f8b9e8728adf08ff",
       "name" : "ZipArchive",
       "container" : "ZipArchive.xcframework",
-      "identifier" : "ios-arm64_i386_x86_64-simulator"
+      "identifier" : "ios-i386_x86_64-simulator"
     },
     {
-      "hash" : "d65194575b562c3ef35cdce1b4c6f1bdd695bc1c0622d4cb94467a9a8637662e",
+      "hash" : "15a8f138241fef3f5526ac00ba8bf2a32675a74fa8f7527cf97ae77826f6e17a",
       "name" : "ZipArchive",
       "container" : "ZipArchive.xcframework",
       "identifier" : "ios-arm64_armv7"
