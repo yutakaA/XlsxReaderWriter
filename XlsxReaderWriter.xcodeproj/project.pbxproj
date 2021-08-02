@@ -132,6 +132,14 @@
 		45D6FBCF1BB27747002ACC9C /* BRAComments.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D6FBCA1BB212A2002ACC9C /* BRAComments.m */; };
 		45D6FBD41BB27833002ACC9C /* BRACalcChainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D6FBD31BB27833002ACC9C /* BRACalcChainCell.m */; };
 		45D6FBD81BB279A5002ACC9C /* BRAComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D6FBD71BB279A5002ACC9C /* BRAComment.m */; };
+		633FC8ED26B510E0006A9B28 /* google.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 633FC8EC26B510E0006A9B28 /* google.xlsx */; };
+		633FC8F226B5130C006A9B28 /* BRAHyperlink.h in Headers */ = {isa = PBXBuildFile; fileRef = 633FC8F026B5130B006A9B28 /* BRAHyperlink.h */; };
+		633FC8F326B5130C006A9B28 /* BRAHyperlink.h in Headers */ = {isa = PBXBuildFile; fileRef = 633FC8F026B5130B006A9B28 /* BRAHyperlink.h */; };
+		633FC8F426B5130C006A9B28 /* BRAHyperlink.h in Headers */ = {isa = PBXBuildFile; fileRef = 633FC8F026B5130B006A9B28 /* BRAHyperlink.h */; };
+		633FC8F526B5130C006A9B28 /* BRAHyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 633FC8F126B5130C006A9B28 /* BRAHyperlink.m */; };
+		633FC8F626B5130C006A9B28 /* BRAHyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 633FC8F126B5130C006A9B28 /* BRAHyperlink.m */; };
+		633FC8F726B5130C006A9B28 /* BRAHyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 633FC8F126B5130C006A9B28 /* BRAHyperlink.m */; };
+		633FC8F826B5130C006A9B28 /* BRAHyperlink.m in Sources */ = {isa = PBXBuildFile; fileRef = 633FC8F126B5130C006A9B28 /* BRAHyperlink.m */; };
 		82168537255024FE0041F2FD /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 82168535255024D10041F2FD /* libz.1.tbd */; };
 		82168542255025090041F2FD /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8289AAC62041E8B500E00603 /* libz.1.tbd */; };
 		82168549255025160041F2FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82168548255025160041F2FD /* UIKit.framework */; };
@@ -429,6 +437,9 @@
 		45D6FBD61BB27970002ACC9C /* BRAComment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAComment.h; sourceTree = "<group>"; };
 		45D6FBD71BB279A5002ACC9C /* BRAComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAComment.m; sourceTree = "<group>"; };
 		5C80DAB821631DC9A77D4D26 /* Pods_XlsxReaderWriter_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XlsxReaderWriter_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633FC8EC26B510E0006A9B28 /* google.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = google.xlsx; sourceTree = "<group>"; };
+		633FC8F026B5130B006A9B28 /* BRAHyperlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAHyperlink.h; sourceTree = "<group>"; };
+		633FC8F126B5130C006A9B28 /* BRAHyperlink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAHyperlink.m; sourceTree = "<group>"; };
 		79E472C077C3646AA0AB918D /* Pods_XlsxReaderWriter_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XlsxReaderWriter_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82168474255015440041F2FD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		82168475255015500041F2FD /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/usr/lib/libz.1.tbd; sourceTree = DEVELOPER_DIR; };
@@ -597,6 +608,7 @@
 			isa = PBXGroup;
 			children = (
 				45B6E2F91A15099000288A78 /* photo-1415226481302-c40f24f4d45e.jpeg */,
+				633FC8EC26B510E0006A9B28 /* google.xlsx */,
 				45B6E2FA1A15099000288A78 /* testWorkbook.xlsx */,
 				45B6E2FB1A15099000288A78 /* BRAXlsxReaderWriterTests.m */,
 				457B68811B9DE8FC0096E1D1 /* XlsxReaderWriterTests.swift */,
@@ -745,6 +757,7 @@
 				45D6FBC61BB2122D002ACC9C /* Comments */,
 				45B6E2F21A15092C00288A78 /* Content types */,
 				45B6E2A31A15081000288A78 /* Drawing */,
+				633FC8EF26B512C9006A9B28 /* Hyperlink */,
 				45B6E29F1A1507F700288A78 /* Image */,
 				45B6E2D91A1508E600288A78 /* Shared strings */,
 				45B6E2C81A1508AA00288A78 /* Styles */,
@@ -1030,6 +1043,15 @@
 			name = "Sub Elements";
 			sourceTree = "<group>";
 		};
+		633FC8EF26B512C9006A9B28 /* Hyperlink */ = {
+			isa = PBXGroup;
+			children = (
+				633FC8F026B5130B006A9B28 /* BRAHyperlink.h */,
+				633FC8F126B5130C006A9B28 /* BRAHyperlink.m */,
+			);
+			name = Hyperlink;
+			sourceTree = "<group>";
+		};
 		8289AA642041D9F900E00603 /* XlsxReaderWriter-iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -1113,6 +1135,7 @@
 				22156DA41C46B62B00BB5779 /* BRACell.h in Headers */,
 				22156DA51C46B62B00BB5779 /* BRARow.h in Headers */,
 				22156DA61C46B62B00BB5779 /* BRAColumn.h in Headers */,
+				633FC8F226B5130C006A9B28 /* BRAHyperlink.h in Headers */,
 				22156DA71C46B62B00BB5779 /* BRAMergeCell.h in Headers */,
 				22156DA81C46B62B00BB5779 /* BRACellRange.h in Headers */,
 				22156DA91C46B62B00BB5779 /* BRAWorksheet.h in Headers */,
@@ -1163,6 +1186,7 @@
 				8289AAAF2041DA8D00E00603 /* BRAOfficeDocument.h in Headers */,
 				8289AAB02041DA8D00E00603 /* BRACell.h in Headers */,
 				8289AAB12041DA8D00E00603 /* BRARow.h in Headers */,
+				633FC8F326B5130C006A9B28 /* BRAHyperlink.h in Headers */,
 				8289AAB22041DA8D00E00603 /* BRAColumn.h in Headers */,
 				8289AAB32041DA8D00E00603 /* BRAMergeCell.h in Headers */,
 				8289AAB42041DA8D00E00603 /* BRACellRange.h in Headers */,
@@ -1213,6 +1237,7 @@
 				8289AAFA2042117B00E00603 /* BRASheet.h in Headers */,
 				8289AAFB2042117B00E00603 /* BRAOfficeDocument.h in Headers */,
 				8289AAFC2042117B00E00603 /* BRACell.h in Headers */,
+				633FC8F426B5130C006A9B28 /* BRAHyperlink.h in Headers */,
 				8289AAFD2042117B00E00603 /* BRARow.h in Headers */,
 				8289AAFE2042117B00E00603 /* BRAColumn.h in Headers */,
 				8289AAFF2042117B00E00603 /* BRAMergeCell.h in Headers */,
@@ -1387,6 +1412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45B6E2FD1A15099000288A78 /* testWorkbook.xlsx in Resources */,
+				633FC8ED26B510E0006A9B28 /* google.xlsx in Resources */,
 				45B6E2FC1A15099000288A78 /* photo-1415226481302-c40f24f4d45e.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1491,6 +1517,7 @@
 				22156D811C46B5DC00BB5779 /* BRAOpenXmlSubElement.m in Sources */,
 				22156D821C46B5DC00BB5779 /* BRAOpenXmlElement.m in Sources */,
 				22225F351C481E2500256993 /* NativeFont+BoldItalic.m in Sources */,
+				633FC8F626B5130C006A9B28 /* BRAHyperlink.m in Sources */,
 				22156D831C46B5DC00BB5779 /* BRAElementWithRelationships.m in Sources */,
 				22156D841C46B5DC00BB5779 /* BRARelationship.m in Sources */,
 				22156D851C46B5DC00BB5779 /* BRARelationships.m in Sources */,
@@ -1537,6 +1564,7 @@
 				4580C6C01A1516EA00790ED5 /* BRAContentTypesOverride.m in Sources */,
 				4580C67B1A1515AB00790ED5 /* BRAElementWithRelationships.m in Sources */,
 				4580C6AB1A15169100790ED5 /* BRAStyles.m in Sources */,
+				633FC8F526B5130C006A9B28 /* BRAHyperlink.m in Sources */,
 				45D6FBD41BB27833002ACC9C /* BRACalcChainCell.m in Sources */,
 				4580C6871A1515EE00790ED5 /* BRADrawing.m in Sources */,
 				4580C6901A15161A00790ED5 /* BRAWorksheet.m in Sources */,
@@ -1592,6 +1620,7 @@
 				8289AA8C2041DA4800E00603 /* BRAWorksheet.m in Sources */,
 				8289AA8D2041DA4800E00603 /* BRAOpenXmlSubElement.m in Sources */,
 				8289AA8E2041DA4800E00603 /* BRAOpenXmlElement.m in Sources */,
+				633FC8F726B5130C006A9B28 /* BRAHyperlink.m in Sources */,
 				8289AA8F2041DA4800E00603 /* BRAElementWithRelationships.m in Sources */,
 				8289AA902041DA4800E00603 /* BRARelationship.m in Sources */,
 				8289AA912041DA4800E00603 /* BRARelationships.m in Sources */,
@@ -1638,6 +1667,7 @@
 				8289AB292042118900E00603 /* BRAWorksheet.m in Sources */,
 				8289AB2A2042118900E00603 /* BRAOpenXmlSubElement.m in Sources */,
 				8289AB2B2042118900E00603 /* BRAOpenXmlElement.m in Sources */,
+				633FC8F826B5130C006A9B28 /* BRAHyperlink.m in Sources */,
 				8289AB2C2042118900E00603 /* BRAElementWithRelationships.m in Sources */,
 				8289AB2D2042118900E00603 /* BRARelationship.m in Sources */,
 				8289AB2E2042118900E00603 /* BRARelationships.m in Sources */,

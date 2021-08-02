@@ -14,6 +14,7 @@
 #import <XlsxReaderWriter/BRARelationships.h>
 #import <XlsxReaderWriter/BRAPlatformSpecificDefines.h>
 #import <XlsxReaderWriter/BRARelationships.h>
+#import <XlsxReaderWriter/BRAHyperlink.h>
 #import <XlsxReaderWriter/BRAImage.h>
 #import <XlsxReaderWriter/BRAWorksheetDrawing.h>
 #import <XlsxReaderWriter/BRAMergeCell.h>
@@ -109,6 +110,25 @@
     
     _drawings = [self.relationships anyRelationshipWithType:[BRADrawing fullRelationshipType]];
     _comments = [self.relationships anyRelationshipWithType:[BRAComments fullRelationshipType]];
+
+    NSMutableDictionary *hyperlinks = [[NSMutableDictionary alloc] init];
+    // The BRAHyperlink have the id, and target.
+    for (BRAHyperlink *link in self.relationships.relationshipsArray) {
+        if ([link isKindOfClass:[BRAHyperlink class]]){
+            [hyperlinks setObject:link forKey:[link identifier]];
+        }
+    }
+    // The worksheet XML has a <hyperlinks> of <hyperlink> that have an ref="A2" r:id="rId1"
+    NSArray<NSDictionary *> *links =  [openXmlAttributes xlsxReaderArrayValueForKeyPath:@"hyperlinks.hyperlink"];
+    for (NSDictionary *link in links) {
+        NSString *reference = link[@"_ref"];
+        NSString *identifier = link[@"_r:id"];
+        if (nil != reference && nil != identifier) {
+            BRACell *cell = [self cellForCellReference:reference];
+            BRAHyperlink *hyperLink = hyperlinks[identifier];
+            cell.targetString = hyperLink.target;
+        }
+    }
 }
 
 #pragma mark - 

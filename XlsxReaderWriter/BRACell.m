@@ -95,6 +95,7 @@
             _type = BRACellContentTypeSharedString;
             _sharedStringIndex = [dictionaryRepresentation[@"v"] integerValue];
             _formulaString = dictionaryRepresentation[@"f"];
+            _targetString = dictionaryRepresentation[@"Target"];
         }
         
         //Formula string
@@ -512,7 +513,7 @@
         } else {
             [dictionaryRepresentation removeObjectForKey:@"f"];
         }
-
+        dictionaryRepresentation[@"Target"] = _targetString;
         dictionaryRepresentation[@"v"] = [NSString stringWithFormat:@"%ld", (long)_sharedStringIndex];
 
     } else if (_type == BRACellContentTypeString) {

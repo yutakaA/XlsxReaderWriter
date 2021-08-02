@@ -79,6 +79,9 @@ typedef enum : NSUInteger {
 @property (nonatomic) NSInteger sharedStringIndex;
 @property (nonatomic) BRACellContentType type;
 @property (nonatomic, getter=hasError) BOOL error;
+
+// hyperlink cells have non-nil targets. hyperlink cell's type is BRACellContentTypeSharedString.
+@property (nonatomic, strong) NSString *targetString;
 @property (nonatomic, strong) NSString *value;
 
 @end
