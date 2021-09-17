@@ -1,6 +1,299 @@
 {
-  "commitish" : "12fe4ff6dc11f6deb235ed397d3bac7fe47e8ff7",
   "Mac" : [
-
+    {
+      "hash" : "41add9fb30b6ccd0cced6db069ec3ce2773ffd6041a2b673d67ffd62334e0198",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "hash" : "41add9fb30b6ccd0cced6db069ec3ce2773ffd6041a2b673d67ffd62334e0198",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "hash" : "41add9fb30b6ccd0cced6db069ec3ce2773ffd6041a2b673d67ffd62334e0198",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "hash" : "41add9fb30b6ccd0cced6db069ec3ce2773ffd6041a2b673d67ffd62334e0198",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "hash" : "9f1d8dd4370cd4fe02780173804315ede7052ae27cb67dbd716a115d2e9f77ce",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "hash" : "9f1d8dd4370cd4fe02780173804315ede7052ae27cb67dbd716a115d2e9f77ce",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "hash" : "9f1d8dd4370cd4fe02780173804315ede7052ae27cb67dbd716a115d2e9f77ce",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "hash" : "9f1d8dd4370cd4fe02780173804315ede7052ae27cb67dbd716a115d2e9f77ce",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ],
+  "watchOS" : [
+    {
+      "hash" : "26effa0c87a94b8919365525ee8cfc4534c19bc352ae6ef297a31f47c421d3c7",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "watchos-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "aa38ba4e6a4f4df52df2d4fdba1e764998dc132e1a9eb1a8d986521b357f9188",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "watchos-arm64_32_armv7k"
+    },
+    {
+      "hash" : "26effa0c87a94b8919365525ee8cfc4534c19bc352ae6ef297a31f47c421d3c7",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "watchos-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "26effa0c87a94b8919365525ee8cfc4534c19bc352ae6ef297a31f47c421d3c7",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "watchos-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "aa38ba4e6a4f4df52df2d4fdba1e764998dc132e1a9eb1a8d986521b357f9188",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "watchos-arm64_32_armv7k"
+    },
+    {
+      "hash" : "aa38ba4e6a4f4df52df2d4fdba1e764998dc132e1a9eb1a8d986521b357f9188",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "watchos-arm64_32_armv7k"
+    },
+    {
+      "hash" : "26effa0c87a94b8919365525ee8cfc4534c19bc352ae6ef297a31f47c421d3c7",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "watchos-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "aa38ba4e6a4f4df52df2d4fdba1e764998dc132e1a9eb1a8d986521b357f9188",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "watchos-arm64_32_armv7k"
+    },
+    {
+      "hash" : "24e5f3292ef5edbf0256e47d05e300cfc2ad00d2913b0ddeaba2876becc9f1fd",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "watchos-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "26b11e6f9602a136bff3da210bb9485a76353ac8d99f7aafdf474ec852501916",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "watchos-arm64_32_armv7k"
+    },
+    {
+      "hash" : "24e5f3292ef5edbf0256e47d05e300cfc2ad00d2913b0ddeaba2876becc9f1fd",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "watchos-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "26b11e6f9602a136bff3da210bb9485a76353ac8d99f7aafdf474ec852501916",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "watchos-arm64_32_armv7k"
+    },
+    {
+      "hash" : "24e5f3292ef5edbf0256e47d05e300cfc2ad00d2913b0ddeaba2876becc9f1fd",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "watchos-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "24e5f3292ef5edbf0256e47d05e300cfc2ad00d2913b0ddeaba2876becc9f1fd",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "watchos-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "26b11e6f9602a136bff3da210bb9485a76353ac8d99f7aafdf474ec852501916",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "watchos-arm64_32_armv7k"
+    },
+    {
+      "hash" : "26b11e6f9602a136bff3da210bb9485a76353ac8d99f7aafdf474ec852501916",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "watchos-arm64_32_armv7k"
+    }
+  ],
+  "tvOS" : [
+    {
+      "hash" : "51cee2a25ca715d040ddee9152f7eba83d5bff00cfead046c8f71f5eed475178",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "hash" : "19537ce4e2eb0b8133bb07dc90d61c0db6418027a2d5199a683c330eb7be4fa4",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "51cee2a25ca715d040ddee9152f7eba83d5bff00cfead046c8f71f5eed475178",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "hash" : "19537ce4e2eb0b8133bb07dc90d61c0db6418027a2d5199a683c330eb7be4fa4",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "51cee2a25ca715d040ddee9152f7eba83d5bff00cfead046c8f71f5eed475178",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "hash" : "19537ce4e2eb0b8133bb07dc90d61c0db6418027a2d5199a683c330eb7be4fa4",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "51cee2a25ca715d040ddee9152f7eba83d5bff00cfead046c8f71f5eed475178",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "hash" : "19537ce4e2eb0b8133bb07dc90d61c0db6418027a2d5199a683c330eb7be4fa4",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    }
+  ],
+  "commitish" : "2a152f294c864c2170ff71b28936d9eba583534b",
+  "iOS" : [
+    {
+      "hash" : "5b44b685032ef4c29ea3b0b22277ae971f3430295f494f2af87cf2198dd981d0",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "21cee9552c29ce2aceba87e0b4d8921a61dfbbdeac9beb6ca859a7efe8069add",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    },
+    {
+      "hash" : "5b44b685032ef4c29ea3b0b22277ae971f3430295f494f2af87cf2198dd981d0",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "21cee9552c29ce2aceba87e0b4d8921a61dfbbdeac9beb6ca859a7efe8069add",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    },
+    {
+      "hash" : "5b44b685032ef4c29ea3b0b22277ae971f3430295f494f2af87cf2198dd981d0",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "21cee9552c29ce2aceba87e0b4d8921a61dfbbdeac9beb6ca859a7efe8069add",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    },
+    {
+      "hash" : "5b44b685032ef4c29ea3b0b22277ae971f3430295f494f2af87cf2198dd981d0",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "21cee9552c29ce2aceba87e0b4d8921a61dfbbdeac9beb6ca859a7efe8069add",
+      "name" : "XlsxReaderWriter",
+      "container" : "XlsxReaderWriter.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    },
+    {
+      "hash" : "28c2de0e2ce385698c462b30555b544ba0f5018cd5c7981cfdf3692e8f7b0a11",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    },
+    {
+      "hash" : "d03f83bd870ad4e03db92f1c9d89d8dd0c0f26c6ef01388905f24cffd9929e7e",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "28c2de0e2ce385698c462b30555b544ba0f5018cd5c7981cfdf3692e8f7b0a11",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    },
+    {
+      "hash" : "d03f83bd870ad4e03db92f1c9d89d8dd0c0f26c6ef01388905f24cffd9929e7e",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "d03f83bd870ad4e03db92f1c9d89d8dd0c0f26c6ef01388905f24cffd9929e7e",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "28c2de0e2ce385698c462b30555b544ba0f5018cd5c7981cfdf3692e8f7b0a11",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    },
+    {
+      "hash" : "28c2de0e2ce385698c462b30555b544ba0f5018cd5c7981cfdf3692e8f7b0a11",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    },
+    {
+      "hash" : "d03f83bd870ad4e03db92f1c9d89d8dd0c0f26c6ef01388905f24cffd9929e7e",
+      "name" : "ZipArchive",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    }
   ]
 }

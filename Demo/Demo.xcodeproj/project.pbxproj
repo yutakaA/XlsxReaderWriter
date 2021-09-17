@@ -3,20 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6119EC0A26F50831002A9B4A /* XlsxReaderWriter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6119EC0826F50831002A9B4A /* XlsxReaderWriter.xcframework */; };
+		6119EC0B26F50831002A9B4A /* ZipArchive.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6119EC0926F50831002A9B4A /* ZipArchive.xcframework */; };
 		826068722049437A00116455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826068712049437A00116455 /* AppDelegate.swift */; };
 		826068742049437A00116455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826068732049437A00116455 /* ViewController.swift */; };
 		826068772049437A00116455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826068752049437A00116455 /* Main.storyboard */; };
 		826068792049437B00116455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826068782049437A00116455 /* Assets.xcassets */; };
 		8260687C2049437B00116455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8260687A2049437B00116455 /* LaunchScreen.storyboard */; };
-		82904D3E2049479200760D35 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82904D3B2049479200760D35 /* ZipArchive.framework */; };
-		82904D3F2049479200760D35 /* ZipArchive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82904D3B2049479200760D35 /* ZipArchive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		82904D432049483500760D35 /* testWorkbook.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 82904D422049483500760D35 /* testWorkbook.xlsx */; };
-		82DAA58C237BF4BB003AFDE7 /* XlsxReaderWriter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAA58A237BF49C003AFDE7 /* XlsxReaderWriter.framework */; };
-		82DAA58D237BF4BB003AFDE7 /* XlsxReaderWriter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82DAA58A237BF49C003AFDE7 /* XlsxReaderWriter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +24,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				82904D3F2049479200760D35 /* ZipArchive.framework in Embed Frameworks */,
-				82DAA58D237BF4BB003AFDE7 /* XlsxReaderWriter.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6119EC0826F50831002A9B4A /* XlsxReaderWriter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = XlsxReaderWriter.xcframework; path = Carthage/Build/XlsxReaderWriter.xcframework; sourceTree = "<group>"; };
+		6119EC0926F50831002A9B4A /* ZipArchive.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ZipArchive.xcframework; path = Carthage/Build/ZipArchive.xcframework; sourceTree = "<group>"; };
 		8260686E2049437A00116455 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		826068712049437A00116455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		826068732049437A00116455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,9 +40,7 @@
 		826068782049437A00116455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8260687B2049437B00116455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8260687D2049437B00116455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82904D3B2049479200760D35 /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipArchive.framework; path = Carthage/Build/iOS/ZipArchive.framework; sourceTree = "<group>"; };
 		82904D422049483500760D35 /* testWorkbook.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = testWorkbook.xlsx; sourceTree = "<group>"; };
-		82DAA58A237BF49C003AFDE7 /* XlsxReaderWriter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XlsxReaderWriter.framework; path = Carthage/Build/iOS/XlsxReaderWriter.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82904D3E2049479200760D35 /* ZipArchive.framework in Frameworks */,
-				82DAA58C237BF4BB003AFDE7 /* XlsxReaderWriter.framework in Frameworks */,
+				6119EC0B26F50831002A9B4A /* ZipArchive.xcframework in Frameworks */,
+				6119EC0A26F50831002A9B4A /* XlsxReaderWriter.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				82904D422049483500760D35 /* testWorkbook.xlsx */,
-				82DAA58A237BF49C003AFDE7 /* XlsxReaderWriter.framework */,
-				82904D3B2049479200760D35 /* ZipArchive.framework */,
+				6119EC0826F50831002A9B4A /* XlsxReaderWriter.xcframework */,
+				6119EC0926F50831002A9B4A /* ZipArchive.xcframework */,
 				826068702049437A00116455 /* Demo */,
 				8260686F2049437A00116455 /* Products */,
 			);
@@ -304,7 +300,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -320,7 +317,10 @@
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.charlymr.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -339,7 +339,10 @@
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.charlymr.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

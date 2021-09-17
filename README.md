@@ -13,7 +13,7 @@ Add the SPM Dependency to your project:
 https://github.com/charlymr/XlsxReaderWriter
 ```
 
-<strong>WARNING: Use from version 2.4.2</strong>
+<strong>WARNING: Use from version 2.4.3</strong>
 
 Add the Library to your target.
 
@@ -30,9 +30,6 @@ import XlsxReaderWriter
 
 Install [Carthage](https://github.com/Carthage/Carthage#installing-carthage) if not already available 
 
-## WARNING: Using Carthage with Xcode 12 (No ARM64 arch incliuder - New Mac silicon) please read this:
-## The zip included for Carthage use the provided carthage.sh file. If you use a New Mac silicon you will need to build
-
 Change to the directory of your Xcode project, and Create and Edit your CartFile and add XlsxReaderWriter:
 [Using Carthage with Xcode 12](https://github.com/Carthage/Carthage/blob/master/Documentation/Xcode12Workaround.md)
 
@@ -41,12 +38,12 @@ $ cd /path/to/MyProject
 $ touch CartFile
 $ edit CartFile
 
-github "charlymr/XlsxReaderWriter" ~> 2.4.2
+github "charlymr/XlsxReaderWriter" ~> 2.4.3
 ```
 
 Save and run:
 ``` bash
-$ carthage update
+$ carthage update --use-xcframeworks
 ```
 
 Drop the Carthage/Build/iOS .framework in your project.
@@ -72,11 +69,11 @@ Frome here, instead of `pod install` use `lbundle exec pod install`
 
 ### Method 1 The quick one: 
 
-Just change your pod to this. Please not the branch (here 2.4.2)
+Just change your pod to this. Please not the branch (here 2.4.3)
 It will change in the future and be merge in master, so keep checkign for update.
 ```
     ## Change in your Podfile.
-        pod 'XlsxReaderWriter', podspec: 'https://raw.githubusercontent.com/charlymr/XlsxReaderWriter/2.4.2/XlsxReaderWriter.podspec'
+        pod 'XlsxReaderWriter', podspec: 'https://raw.githubusercontent.com/charlymr/XlsxReaderWriter/2.4.3/XlsxReaderWriter.podspec'
 
 ```
 
