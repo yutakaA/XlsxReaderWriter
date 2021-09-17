@@ -1,53 +1,11 @@
 {
+  "commitish" : "v2.4.2",
   "Mac" : [
     {
-      "hash" : "85bfd62e54c960169d887fb277c8ca5f7cb445cd7631399fd7f74ab1a89c4ea7",
+      "hash" : "2be9d6d64570640fbd5a3c2dbf029672207a2d195ffd2b98ae35919ba8d8dda3",
       "name" : "ZipArchive",
       "container" : "ZipArchive.xcframework",
       "identifier" : "macos-arm64_x86_64"
-    }
-  ],
-  "watchOS" : [
-    {
-      "hash" : "218ae47255cf99b26c5d454840fb15b7fa8c441275b48d0bd054143e8134d5f8",
-      "name" : "ZipArchive",
-      "container" : "ZipArchive.xcframework",
-      "identifier" : "watchos-i386_x86_64-simulator"
-    },
-    {
-      "hash" : "7ddde4a7dc40987da5dc30e833cde440144a4af26588f85855de6e875217c9cf",
-      "name" : "ZipArchive",
-      "container" : "ZipArchive.xcframework",
-      "identifier" : "watchos-arm64_32_armv7k"
-    }
-  ],
-  "tvOS" : [
-    {
-      "hash" : "75dbbbc75da0f6cf0adff946cd156a133d3c57c41316e9cbc60992740b2f4a6b",
-      "name" : "ZipArchive",
-      "container" : "ZipArchive.xcframework",
-      "identifier" : "tvos-x86_64-simulator"
-    },
-    {
-      "hash" : "1dbc1b9b530a2be32d998b2cf763c51fc84088afbb5fab1c693c917074c8f7a8",
-      "name" : "ZipArchive",
-      "container" : "ZipArchive.xcframework",
-      "identifier" : "tvos-arm64"
-    }
-  ],
-  "commitish" : "v2.4.2",
-  "iOS" : [
-    {
-      "hash" : "bdac98d806a0c011d18619341136865eb41f7f772c41fdc4f8b9e8728adf08ff",
-      "name" : "ZipArchive",
-      "container" : "ZipArchive.xcframework",
-      "identifier" : "ios-i386_x86_64-simulator"
-    },
-    {
-      "hash" : "15a8f138241fef3f5526ac00ba8bf2a32675a74fa8f7527cf97ae77826f6e17a",
-      "name" : "ZipArchive",
-      "container" : "ZipArchive.xcframework",
-      "identifier" : "ios-arm64_armv7"
     }
   ]
 }
