@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   
   s.requires_arc       = true
 
-  s.dependency "SSZipArchive", "~> 2.1"
+  s.dependency "SSZipArchive", "2.3.0"
 
 end
 
